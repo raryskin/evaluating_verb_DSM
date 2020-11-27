@@ -2,16 +2,21 @@ import os
 import csv
 import pandas as pd
 import networkx as nx
+import numpy as np
 import matplotlib.pyplot as plt
 from nltk.corpus import wordnet as wn
 from scipy.spatial import distance
-
 
 def import_vectors(filez):
     cols = ["word1","word2","pos","sv_score",'relation']
     simverb = pd.read_csv(filez,sep='\t')
     simverb.columns = cols
 
+def normalize(word_vec):
+    norm=np.linalg.norm(word_vec)
+    if norm == 0: 
+       return word_vec
+    return word_vec/norm
 
 def graph_this(simverb,set):
     G = nx.Graph()
@@ -30,16 +35,50 @@ def graph_this(simverb,set):
     plt.show()
     plt.clf()
 
-###update###
 def vec(db, word):
-    return db.loc[word].as_matrix()
+    #print(db.loc[word])
+    return db.loc[word].to_numpy()
+
 
 def cos_distance(db, word1, word2):
-    return distance.cosine(vec(db, word1), vec(db, word2))
+    if word1 not in db.index or word2 not in db.index:
+        return 99999
+    else:
+        vec1 = vec(db, word1)
+        #print(word1 in db.index)
+        #print(vec1)
+        vec2 = vec(db, word2)
+        #print(word2 in db.index)
+        #print(vec2)
+        return distance.cosine(vec1, vec2)
+
+def cos_distance_minus(db, word1, word2):
+    if word1 not in db.index or word2 not in db.index:
+        return 99999
+    else:
+        vec1 = vec(db, word1)
+        #print(word1 in db.index)
+        #print(vec1)
+        vec2 = vec(db, word2)
+        #print(word2 in db.index)
+        #print(vec2)
+        return 1 - distance.cosine(vec1, vec2)
+
+def cos_distance_normalized(db, word1, word2):
+    if word1 not in db.index or word2 not in db.index:
+        return 99999
+    else:
+        vec1 = normalize(vec(db, word1))
+        #print(word1 in db.index)
+        #print(vec1)
+        vec2 = normalize(vec(db, word2))
+        #print(word2 in db.index)
+        #print(vec2)
+        return distance.cosine(vec1, vec2)
 
 
 #import_vectors("SimVerb-3500.txt")
-simverb = pd.read_csv("simverb_cf_updated.csv")
+simverb = pd.read_csv("simverb_11-25.csv")
 #closer to 10 -> more similar
 #print(simverb)
 
@@ -47,15 +86,27 @@ simverb = pd.read_csv("simverb_cf_updated.csv")
 #closer to 0 -> more similar
 
 '''
-inverse = []
+minus = []
+normalized = []
 for index, row in simverb.iterrows():
-    inverse.append(1/float(row["cf_score"]))
-simverb["inverse"] = inverse
+    word1 = row["word1"]
+    word2 = row["word2"]
+    minus.append(cos_distance_minus(cf_paragrams, word1, word2))
+    normalized.append(cos_distance_normalized(cf_paragrams, word1, word2))
+
+simverb["one_minus_cf"] = minus
+simverb["normalized_cf"] = normalized
 '''
 
-#graph_this(simverb, "sv_score")
-graph_this(simverb, "cf_score")
-#graph_this(simverb, "inverse_cf")
+wordNet = []
+for index, row in simverb.iterrows():
+    word1 = row["word1"]
+    word2 = row["word2"]
+    wordNet.append
+
+graph_this(simverb, "sv_score")
+#graph_this(simverb, "cf_score")
+graph_this(simverb, "one_minus_cf")
 
 
-#simverb.to_csv("./simverb_cf_updated.csv",index=False)
+#simverb.to_csv("./simverb_11-25.csv",index=False)
