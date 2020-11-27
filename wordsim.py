@@ -102,7 +102,7 @@ wordNet = []
 for index, row in simverb.iterrows():
     word1 = row["word1"]
     word2 = row["word2"]
-    wordNet.append
+    wordNet.append()
 
 graph_this(simverb, "sv_score")
 #graph_this(simverb, "cf_score")
