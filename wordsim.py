@@ -19,6 +19,7 @@ def normalize(word_vec):
     return word_vec/norm
 
 def graph_this(simverb,set):
+    print("graphing ",set)
     G = nx.Graph()
     for index, row in simverb.iterrows():
         if int(row["include"]) == 1: 
@@ -32,6 +33,7 @@ def graph_this(simverb,set):
     pos = nx.spring_layout(G,k=0.1)
     nx.draw(G, pos, node_color="r",edgelist=edges, edge_color=weights, width = 5.0, edge_cmap = plt.cm.Greys)
     nx.draw_networkx_labels(G, pos, font_size = 8, font_family = "sans-serif")
+    print(nx.average_clustering(G))
     plt.show()
     plt.clf()
 
@@ -78,7 +80,7 @@ def cos_distance_normalized(db, word1, word2):
 
 
 #import_vectors("SimVerb-3500.txt")
-simverb = pd.read_csv("simverb_11-25.csv")
+simverb = pd.read_csv("simverb_11-27.csv")
 #closer to 10 -> more similar
 #print(simverb)
 
@@ -97,16 +99,20 @@ for index, row in simverb.iterrows():
 simverb["one_minus_cf"] = minus
 simverb["normalized_cf"] = normalized
 '''
-
+'''
 wordNet = []
 for index, row in simverb.iterrows():
     word1 = row["word1"]
+    w1_syn = wn.synsets(word1, pos=wn.VERB)[0]
     word2 = row["word2"]
-    wordNet.append()
+    w2_syn = wn.synsets(word2, pos=wn.VERB)[0]
+    wordNet.append(w1_syn.path_similarity(w2_syn))
+simverb["wn_wup"] = wordNet
+'''
 
 graph_this(simverb, "sv_score")
 #graph_this(simverb, "cf_score")
 graph_this(simverb, "one_minus_cf")
+graph_this(simverb, "wn_wup")
 
-
-#simverb.to_csv("./simverb_11-25.csv",index=False)
+#simverb.to_csv("./simverb_11-27.csv",index=False)
