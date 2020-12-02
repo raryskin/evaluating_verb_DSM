@@ -14,7 +14,7 @@ def import_vectors(filez):
 
 def normalize(word_vec):
     norm=np.linalg.norm(word_vec)
-    if norm == 0: 
+    if norm == 0:
        return word_vec
     return word_vec/norm
 
@@ -22,7 +22,7 @@ def graph_this(simverb,set):
     print("graphing ",set)
     G = nx.Graph()
     for index, row in simverb.iterrows():
-        if int(row["include"]) == 1: 
+        if int(row["include"]) == 1:
             G.add_node(row["word1"])
             G.add_node(row["word2"])
             G.add_edge(row["word1"],row["word2"],weight=row[set])
@@ -31,11 +31,22 @@ def graph_this(simverb,set):
 
     #print(G.number_of_nodes())
     pos = nx.spring_layout(G,k=0.1)
-    nx.draw(G, pos, node_color="r",edgelist=edges, edge_color=weights, width = 5.0, edge_cmap = plt.cm.Greys)
+    nx.draw(G, pos, node_size=0,node_color="r",edgelist=edges, edge_color=weights, width = 5.0, edge_cmap = plt.cm.Greys)
     nx.draw_networkx_labels(G, pos, font_size = 8, font_family = "sans-serif")
     print(nx.average_clustering(G))
     plt.show()
     plt.clf()
+
+def bucketeer(value_):
+    if value_<=0.25:
+        return 1
+    elif value_ <=0.5:
+        return 2
+    elif value_ <= 0.75:
+        return 3
+    else:
+        return 4
+
 
 def vec(db, word):
     #print(db.loc[word])
@@ -80,25 +91,29 @@ def cos_distance_normalized(db, word1, word2):
 
 
 #import_vectors("SimVerb-3500.txt")
-simverb = pd.read_csv("simverb_11-27.csv")
+simverb = pd.read_csv("simverb_12-2.csv")
 #closer to 10 -> more similar
 #print(simverb)
 
 #cf_paragrams = pd.read_csv("./word_vectors/counter-fitted-vectors.txt", sep=" ", index_col=0, header=None, quoting=csv.QUOTE_NONE, encoding = "utf-8")
 #closer to 0 -> more similar
 
-'''
-minus = []
-normalized = []
-for index, row in simverb.iterrows():
-    word1 = row["word1"]
-    word2 = row["word2"]
-    minus.append(cos_distance_minus(cf_paragrams, word1, word2))
-    normalized.append(cos_distance_normalized(cf_paragrams, word1, word2))
 
-simverb["one_minus_cf"] = minus
-simverb["normalized_cf"] = normalized
-'''
+sv_bucket = []
+cf_bucket = []
+wn_bucket = []
+for index, row in simverb.iterrows():
+    sv_score = row["sv_score"]
+    omcf = row["one_minus_cf"]
+    wn_wup = row["wn_wup"]
+    sv_bucket.append(bucketeer(sv_score))
+    cf_bucket.append(bucketeer(omcf))
+    wn_bucket.append(bucketeer(wn_wup))
+simverb["sv_bucket"] = sv_bucket
+simverb["cf_bucket"] = cf_bucket
+simverb["wn_bucket"] = wn_bucket
+
+
 '''
 wordNet = []
 for index, row in simverb.iterrows():
@@ -110,9 +125,11 @@ for index, row in simverb.iterrows():
 simverb["wn_wup"] = wordNet
 '''
 
+
+
 graph_this(simverb, "sv_score")
 #graph_this(simverb, "cf_score")
 graph_this(simverb, "one_minus_cf")
 graph_this(simverb, "wn_wup")
 
-#simverb.to_csv("./simverb_11-27.csv",index=False)
+simverb.to_csv("./simverb_12-2.csv",index=False)
