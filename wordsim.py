@@ -21,6 +21,8 @@ def normalize(word_vec):
 def graph_this(simverb,set):
     print("graphing ",set)
     G = nx.Graph()
+    ax = plt.gca()
+    ax.set_title("Graph for "+set)
     for index, row in simverb.iterrows():
         if int(row["include"]) == 1:
             G.add_node(row["word1"])
@@ -30,8 +32,9 @@ def graph_this(simverb,set):
     edges, weights = zip(*nx.get_edge_attributes(G,"weight").items())
 
     #print(G.number_of_nodes())
-    pos = nx.spring_layout(G,k=0.1)
-    nx.draw(G, pos, node_size=0,node_color="r",edgelist=edges, edge_color=weights, width = 5.0, edge_cmap = plt.cm.Greys)
+    pos = nx.spring_layout(G,k=0.15)
+    nx.draw(G, pos, node_size=0,node_color="r",edgelist=edges, edge_color=weights, width = 5.0, edge_cmap = plt.cm.Reds,ax=ax)
+    _ = ax.axis("off")
     nx.draw_networkx_labels(G, pos, font_size = 8, font_family = "sans-serif")
     print(nx.average_clustering(G))
     plt.show()
