@@ -3,8 +3,9 @@ library(dplyr)
 library(ggplot2)
 library(tidyverse)
 library(caret)
+library(e1071)
 
-df <- read.csv("./simverb_11-27.csv")
+df <- read.csv("./simverb_12-2.csv")
 hist(df$sv_score,xlab="Human-rated similarity scores (0-10)",ylab="Frequency")
 
 #CF-paragram
@@ -18,11 +19,9 @@ plot(df$sv_score,df$one_minus_cf,xlab="SimVerb Human rankings",ylab="CF Paragram
 abline(lm(df$one_minus_cf~df$sv_score),col="blue")
 #High correlation between the two measures (0.616), t = 46.187, df = 3487, p-value < 2.2e-16
 #Slope = 0.05527, intercept = 0.03720
-expected <- factor(df$tenth)
-predicted <- factor(df$sv_score)
-results <- confusionMatrix(data=predicted,reference=expected)
+cf_results <- confusionMatrix(data=factor(df$cf_bucket),reference=factor(df$sv_bucket))
+cf_results
 #four buckets - 0-0.25, 0.25-0.5, 0.5-0.75, 0.75-1.0
-
 
 #WordNet Wu-Palmer similarity
 hist(df$wn_wup,xlab="WordNet Wu-Palmer similarity scores (0-1)",ylab="Frequency")
@@ -33,5 +32,6 @@ lm(wn_wup~sv_score, data=df)
 summary(wn_wup_lm)
 plot(df$sv_score,df$wn_wup,xlab="SimVerb Human rankings",ylab="WordNet Wu-Palmer sim", main="Correlation between SimVerb rankings and WordNet Wu-Palmer similarity")
 abline(lm(wn_wup~sv_score, data=df),col="blue")
+wn_results <- confusionMatrix(data=factor(df$wn_bucket),reference=factor(df$sv_bucket))
 #Low correlation between the two measures (0.2743), t = 16.846, df = 3487, p-value < 2.2e-16
 #Slope = 0.01515, intercept = 0.15195
