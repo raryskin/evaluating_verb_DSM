@@ -106,7 +106,7 @@ for index, row in simverb.iterrows():
     sv_score = row["sv_score"]
     omcf = row["one_minus_cf"]
     wn_wup = row["wn_wup"]
-    sv_bucket.append(bucketeer(sv_score))
+    sv_bucket.append(bucketeer(sv_score/10))
     cf_bucket.append(bucketeer(omcf))
     wn_bucket.append(bucketeer(wn_wup))
 simverb["sv_bucket"] = sv_bucket
