@@ -6,7 +6,7 @@ library(caret)
 library(e1071)
 
 df <- read.csv("./simverb_12-2.csv")
-hist(df$sv_score,xlab="Human-rated similarity scores (0-10)",ylab="Frequency")
+hist(df$sv_score,xlab="Human-rated similarity scores (0-10)",ylab="Frequency", main="Histogram of Human Similarity Ratings")
 
 #CF-paragram
 hist(df$one_minus_cf,xlab="CF-Paragram cos distance",ylab="Frequency",main="Histogram of Counter Fitted Paragram cosine distance")
@@ -24,7 +24,7 @@ cf_results
 #four buckets - 0-0.25, 0.25-0.5, 0.5-0.75, 0.75-1.0
 
 #WordNet Wu-Palmer similarity
-hist(df$wn_wup,xlab="WordNet Wu-Palmer similarity scores (0-1)",ylab="Frequency")
+hist(df$wn_wup,xlab="WordNet Wu-Palmer similarity scores (0-1)",ylab="Frequency",main="Histogram of WordNet WuP distances")
 cor(df$wn_wup,df$sv_score)
 cor.test(df$wn_wup,df$sv_score)
 wn_wup_lm <- lm(wn_wup~sv_score, data=df)
