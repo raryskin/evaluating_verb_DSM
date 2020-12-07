@@ -1,10 +1,10 @@
-## Evaluating verb similarity methods: DSM and lexical databases
+# Evaluating verb similarity methods: DSM and lexical databases
 Code for evaluating different verb similarity methods.
 Compares Counterfitted Paragram word vectors and WordNet wu-palmer similarity to Human similarity rankings for verbs from SimVerb-3500 (Gerz et al., 2016).
 
 Must unzip the 7z file in word_vectors.
 
-# Citations:
+## Citations:
 
 Gerz, D., Vulić, I., Hill, F., Reichart, R., & Korhonen, A. (2016). Simverb-3500: A large-scale evaluation set of verb similarity. arXiv preprint arXiv:1608.00869.
 
