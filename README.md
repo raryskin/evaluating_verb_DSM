@@ -2,7 +2,9 @@
 Code for evaluating different verb similarity methods.
 Compares Counterfitted Paragram word vectors and WordNet wu-palmer similarity to Human similarity rankings for verbs from SimVerb-3500 (Gerz et al., 2016).
 
-Must unzip the 7z file in word_vectors.
+## Brief intro
+SimVerb-3500.txt contains the original verb pairs and rankings. Must unzip the 7z file in word_vectors to use the counter-fitted paragram embeddings. Wordsim.py is the script used to calculate and organize the similarity scores for the word pairs for the different models, can be used to graph semantic networks. Analyses.R is used to process similarity score distributions, correlation & linear regression, and confusion matrices.
+
 
 ## Citations:
 
