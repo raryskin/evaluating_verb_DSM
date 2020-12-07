@@ -1,10 +1,11 @@
-# evaluating_verb_DSM
+## Evaluating verb similarity methods: DSM and lexical databases
 Code for evaluating different verb similarity methods.
 Compares Counterfitted Paragram word vectors and WordNet wu-palmer similarity to Human similarity rankings for verbs from SimVerb-3500 (Gerz et al., 2016).
 
 Must unzip the 7z file in word_vectors.
 
-Citations:
+# Citations:
+
 Gerz, D., Vulić, I., Hill, F., Reichart, R., & Korhonen, A. (2016). Simverb-3500: A large-scale evaluation set of verb similarity. arXiv preprint arXiv:1608.00869.
 
 Ganitkevitch, J., Van Durme, B., & Callison-Burch, C. (2013, June). PPDB: The paraphrase database. In Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (pp. 758-764).
