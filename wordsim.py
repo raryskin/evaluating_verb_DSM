@@ -22,7 +22,12 @@ def graph_this(simverb,set):
     print("graphing ",set)
     G = nx.Graph()
     ax = plt.gca()
-    ax.set_title("Graph for "+set)
+    if set == "sv_score":
+        ax.set_title("Semantic network for SimVerb-3500 rankings")
+    elif set == "one_minus_cf":
+        ax.set_title("Semantic network for Counter-Fitted Paragram similarity rankings")
+    else:
+        ax.set_title("Semantic Network for WordNet Wu-Palmer path similarity")
     for index, row in simverb.iterrows():
         if int(row["include"]) == 1:
             G.add_node(row["word1"])
@@ -32,7 +37,7 @@ def graph_this(simverb,set):
     edges, weights = zip(*nx.get_edge_attributes(G,"weight").items())
 
     #print(G.number_of_nodes())
-    pos = nx.spring_layout(G,k=0.15)
+    pos = nx.spring_layout(G,k=0.2)
     nx.draw(G, pos, node_size=0,node_color="r",edgelist=edges, edge_color=weights, width = 5.0, edge_cmap = plt.cm.Reds,ax=ax)
     _ = ax.axis("off")
     nx.draw_networkx_labels(G, pos, font_size = 8, font_family = "sans-serif")
