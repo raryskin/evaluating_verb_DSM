@@ -2,3 +2,5 @@ dsm-venv/
 counter-fitted-vectors.txt
 *.png
 *.7z
+*.gz
+data/*verbargs/
