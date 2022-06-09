@@ -38,6 +38,7 @@ for filename in os.listdir("../data/unlex_verbargs"):
     with open("../data/unlex_verbargs/"+filename) as f:
         reader = csv.reader(f, delimiter='\t')
         raw_data = [r for r in reader]
+        
     df = pd.DataFrame(data=raw_data)
     df = df[[0,1,2]]
     df.columns = ["verb", "arg_structure", "count"]
