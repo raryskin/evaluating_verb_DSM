@@ -59,6 +59,6 @@ for filename in os.listdir("../data/unlex_verbargs"):
     print(start - end)
     result = result.append(arg_data)
     
-    result.to_csv("verb_transitivity", sep='\t', index=False)
+    result.to_csv("verb_transitivity.tsv", sep='\t', index=False)
 
     
