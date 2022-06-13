@@ -30,5 +30,5 @@ for i in range(00, 99):
         os.system(command)
 
 os.system("gunzip ../data/unlex_verbargs/*.gz")
-os.system("for f in ../data/unlex_verbargs/*; do mv \"$f\" \"$f.jpg\"; done")
+os.system("for f in ../data/unlex_verbargs/*; do mv \"$f\" \"$f.tsv\"; done")
 # for f in *; do mv "$f" "$f.jpg"; done
