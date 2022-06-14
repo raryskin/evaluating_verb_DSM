@@ -5,6 +5,9 @@ import os
 import csv
 import time
 import sys
+from collections import Counter
+
+pd.options.mode.chained_assignment = None
 
 """
 ======
@@ -19,6 +22,23 @@ and "gave")
 ======
 """
 
+def row2dict(date_row):
+    date_row = date_row.dropna()
+    date_dict = {}
+    for item in date_row.values:
+        split_dates = item.split(",")
+        date_dict[split_dates[0]] = int(split_dates[1])
+    return date_dict
+
+
+def sum_dicts(set_of_dicts):
+    # print(set_of_dicts)
+    initial = Counter(set_of_dicts[0])
+    for i in range(1,len(set_of_dicts)):
+        initial = initial + Counter(set_of_dicts[i])
+    return sorted(initial.items())
+
+
 dative_verbs = pd.read_csv("../data/dative_verbs.csv")
 
 dv = dative_verbs["verb"].values
@@ -27,95 +47,89 @@ csv.field_size_limit(sys.maxsize)
 col_names = ["verb", "arg_structure", "count"]
 result = pd.DataFrame()
 
-start = time.time()
-raw_data = []
+for filename in os.listdir("../data/unlex_verbargs"):
+    print(filename)
+    start = time.time()
+    raw_data = []
 
-# This because normal reading in the CSV was generating errors!
-# df = pd.read_csv(open("./verb_args/"+filename, 'rt'), encoding='utf-8', engine='c', names=col_names, usecols=[0,1,2], sep="\t")
-with open("../data/unlex_verbargs/head_set.tsv") as f:
-    reader = csv.reader(f, delimiter='\t')
-    raw_data = [r for r in reader]
-    
-df = pd.DataFrame(data=raw_data)
-df = df[[0,1,2]]
-df.columns = ["verb", "arg_structure", "count"]
-df["count"] = df["count"].astype(int)
-
-print(df)
-df_subset = df[df.verb.isin(dv)]
-
-#iobj & dobj
-df_subset["iobj_dobj"] = df_subset.arg_structure.str.contains("(?=iobj)(?=.*dobj)", regex=True)
-
-#dobj & pobj
-df_subset["dobj_pobj"] = df_subset.arg_structure.str.contains("(?=dobj)(?=.*pobj)", regex=True)
-
-#dobj only
-df_subset["dobj"] = df_subset.arg_structure.str.contains("dobj") & ~df_subset.arg_structure.str.contains("iobj") & ~df_subset.arg_structure.str.contains("pobj")
-
-#other?
-
-
-arg_data = df_subset.groupby(["verb", "iobj_dobj", "dobj_pobj", "dobj"])["count"].sum()
-arg_data = arg_data.unstack().unstack().reset_index()
-print(arg_data)
-# Rename columns: xtrans = when there is an indirect object, but no direct object. Infrequent occurance
-# arg_data.columns = ["verb", "intrans", "trans", "xtrans", "ditrans"]
-# arg_data = arg_data.fillna(0)
-# # Total counts for each verb form
-# arg_data["total"] = arg_data["intrans"] + arg_data["trans"] + arg_data["xtrans"] + arg_data["ditrans"]
-# # Filter verb forms that occur less than 2,000 times.
-# arg_data = arg_data[arg_data["total"] > 2000]
-# # Calculate percentages of transitivity, intransitivity and ditransitivity
-# arg_data["percent_intrans"] = arg_data["intrans"] / arg_data["total"]
-# arg_data["percent_trans"] = arg_data["trans"] / arg_data["total"]
-# arg_data["percent_ditrans"] = arg_data["ditrans"] / arg_data["total"]
-
-# end = time.time()
-# print(start - end)
-# result = result.append(arg_data)
-
-# result.to_csv("verb_transitivity.tsv", sep='\t', index=False)
-
-
-
-# for filename in os.listdir("../data/unlex_verbargs"):
-    # print(filename)
-    # start = time.time()
-    # raw_data = []
-    
-    # # This because normal reading in the CSV was generating errors!
-    # # df = pd.read_csv(open("./verb_args/"+filename, 'rt'), encoding='utf-8', engine='c', names=col_names, usecols=[0,1,2], sep="\t")
-    # with open("../data/unlex_verbargs/"+filename) as f:
-    #     reader = csv.reader(f, delimiter='\t')
-    #     raw_data = [r for r in reader]
+    # This because normal reading in the CSV was generating errors!
+    # df = pd.read_csv(open("./verb_args/"+filename, 'rt'), encoding='utf-8', engine='c', names=col_names, usecols=[0,1,2], sep="\t")
+    with open("../data/unlex_verbargs/"+filename) as f:
+        reader = csv.reader(f, delimiter='\t')
+        raw_data = [r for r in reader]
         
-    # df = pd.DataFrame(data=raw_data)
-    # df = df[[0,1,2]]
-    # df.columns = ["verb", "arg_structure", "count"]
-    # df["count"] = df["count"].astype(int)
+    df = pd.DataFrame(data=raw_data)
+    # print(df)
+    dates = df.loc[:, ~ df.columns.isin([0,1,2])]
 
-    # df["dobj"] = df.arg_structure.str.contains("dobj") #Construction contains direct obj dependency
-    # df["iobj"] = df.arg_structure.str.contains("iobj") #Construction contains indirect obj dependency
-    
-    # arg_data = df.groupby(["verb", "dobj", "iobj"])["count"].sum()
+    # print(dates)
+    date_row = dates.loc[0,:]
+
+    dates["counts"] = dates.apply(lambda row: row2dict(row), axis = 1)
+
+    # print(dates["counts"])
+    df = df[[0,1,2]]
+    df.columns = ["verb", "arg_structure", "count"]
+    df["count"] = df["count"].astype(int)
+    df["year_count"] = dates["counts"]
+
+    # print(df)
+    df_subset = df[df.verb.isin(dv)]
+
+    #iobj & dobj
+    df_subset["iobj_dobj"] = df_subset.arg_structure.str.contains("(?=iobj)(?=.*dobj)", regex=True)
+
+    #dobj & pobj
+    df_subset["dobj_pobj"] = df_subset.arg_structure.str.contains("(?=dobj)(?=.*pobj)", regex=True)
+
+    #dobj only
+    df_subset["dobj"] = df_subset.arg_structure.str.contains("dobj") & ~df_subset.arg_structure.str.contains("iobj") & ~df_subset.arg_structure.str.contains("pobj")
+
+    #other
+    df_subset["other"] = ~df_subset["dobj"] & ~df_subset["dobj_pobj"] & ~df_subset["iobj_dobj"]
+
+    #Check column
+    df_subset["check"] = df_subset["dobj"] + df_subset["dobj_pobj"] + df_subset["iobj_dobj"] + df_subset["other"]
+
+    # print(df_subset)
+    df_type = df_subset[["verb","dobj","dobj_pobj","iobj_dobj","other"]]
+    for col in ["dobj","dobj_pobj","iobj_dobj","other"]:
+        df_type[col] = df_type[col].replace({True: 1, False: 0})
+    df_type = df_type.set_index("verb")
+
+    df_type = df_type.idxmax(axis=1)
+
+    # arg_data = df_subset.groupby(["verb", "iobj_dobj", "dobj_pobj", "dobj"])["count"].sum()
     # arg_data = arg_data.unstack().unstack().reset_index()
-    # # Rename columns: xtrans = when there is an indirect object, but no direct object. Infrequent occurance
-    # arg_data.columns = ["verb", "intrans", "trans", "xtrans", "ditrans"]
-    # arg_data = arg_data.fillna(0)
-    # # Total counts for each verb form
-    # arg_data["total"] = arg_data["intrans"] + arg_data["trans"] + arg_data["xtrans"] + arg_data["ditrans"]
-    # # Filter verb forms that occur less than 2,000 times.
-    # arg_data = arg_data[arg_data["total"] > 2000]
-    # # Calculate percentages of transitivity, intransitivity and ditransitivity
-    # arg_data["percent_intrans"] = arg_data["intrans"] / arg_data["total"]
-    # arg_data["percent_trans"] = arg_data["trans"] / arg_data["total"]
-    # arg_data["percent_ditrans"] = arg_data["ditrans"] / arg_data["total"]
-    
-    # end = time.time()
-    # print(start - end)
-    # result = result.append(arg_data)
-    
-    # result.to_csv("verb_transitivity.tsv", sep='\t', index=False)
+    # print(arg_data)
+
+    df_subset["alternation"] = df_type.values
+
+    df_subset = df_subset.drop(["arg_structure", "dobj", "dobj_pobj","iobj_dobj","check","other"], axis = 1)
+
+    # print(df_subset)
+
+    for verb in pd.unique(df_subset.verb):
+        for alternation in pd.unique(df_subset.alternation):
+            # print(verb, alternation)
+            temp = df_subset[(df_subset["verb"] == verb) & (df_subset["alternation"] == alternation)]
+            if len(temp) != 0:
+                # print(temp)
+                total_count = temp["count"].sum()
+                year_counts = sum_dicts(temp["year_count"].values)
+            else:
+                total_count = 0
+                year_counts = -1
+
+            new_row = {"verb":[verb], "alternation":[alternation], "total_count": [total_count], "year_count":[year_counts]}
+            new_row = pd.DataFrame(new_row)
+            # print()
+            result = pd.concat([result, new_row], axis = 0)
+
+
+    end = time.time()
+    print(start - end)
+
+    result.to_csv("../data_output/verb_dative_alternation.tsv", sep='\t', index=False)
 
     
