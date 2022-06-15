@@ -55,7 +55,7 @@ for filename in os.listdir("../data/unlex_verbargs"):
     # This because normal reading in the CSV was generating errors!
     # df = pd.read_csv(open("./verb_args/"+filename, 'rt'), encoding='utf-8', engine='c', names=col_names, usecols=[0,1,2], sep="\t")
     with open("../data/unlex_verbargs/"+filename) as f:
-        reader = csv.reader(f, delimiter='\t')
+        reader = csv.reader(f, delimiter='\t', quotechar = None, doublequote= True)
         raw_data = [r for r in reader]
         
     df = pd.DataFrame(data=raw_data)
