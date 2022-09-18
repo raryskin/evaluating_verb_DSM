@@ -21,6 +21,12 @@ ggplot(simverb, aes(x = shared_frames, y = sv_score))+
   ylab("Mean annotator rating")+
   geom_smooth(method = "lm")
 
+simverb <- simverb |> 
+  mutate(shared = shared_frames > 0)
+
+ggplot(simverb, aes(x = shared, y = sv_score))+
+  geom_boxplot()
+
 ggplot(simverb, aes(x = relation_index, y = sd_rating))+
   geom_point(shape = 21, fill = "lightblue")+
   xlab("Pair relation (hypernym, etc.)")+
