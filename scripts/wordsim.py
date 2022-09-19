@@ -57,7 +57,6 @@ def bucketeer(value_):
 
 
 def vec(db, word):
-    #print(db.loc[word])
     return db.loc[word].to_numpy()
 
 
