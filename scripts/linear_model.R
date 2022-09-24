@@ -17,7 +17,8 @@ ggplot(simverb, aes(x = shared_frames, y = sv_score))+
   ylab("Mean annotator rating")
 
 ggplot(simverb, aes(x = cf_scaled_sim, y = sv_score))+
-  geom_point(shape = 21, fill = "darkblue")+
+  geom_point(shape = 21, alpha = 0.5,
+             fill = "lightgreen", color = "black")+
   xlab("CF paragram similarity (scaled 0-10)")+
   ylab("Mean annotator rating")
 
@@ -61,31 +62,39 @@ ablate_both <- train(sv_score ~ cf_scaled_sim,
                        method = "lm",
                        trControl = ctrl)
 
+ablate_dsm <- train(sv_score ~ relation_index + shared_frames,
+                    data = simverb,
+                    method = "lm",
+                    trControl = ctrl)
+
 temp_df <- data.frame(full_model$results, "model_type" = c("full"))
 temp_df <- temp_df |> 
-  rbind(data.frame(ablate_relation$results, "model_type" = "ablate_relation"))|> 
-  rbind(data.frame(ablate_frames$results, "model_type" = "ablate_frames"))|> 
-  rbind(data.frame(ablate_both$results, "model_type" = "ablate_both"))
+  rbind(data.frame(ablate_relation$results, "model_type" = "DS+Frames"))|> 
+  rbind(data.frame(ablate_frames$results, "model_type" = "-frames"))|> 
+  rbind(data.frame(ablate_both$results, "model_type" = "DSM ONLY")) |> 
+  rbind(data.frame(ablate_dsm$results, "model_type" = "-dsm"))
 
 a <- ggplot(temp_df, aes(x = model_type, y = Rsquared))+
   geom_bar(stat = "identity", fill = "lightblue", color = "black")+
   geom_errorbar(aes(ymin = Rsquared - RsquaredSD, ymax = Rsquared + RsquaredSD),
                 width = 0.1)+
   theme(axis.text.x = element_text(angle = 25))+
-  ggtitle("Rsquared")
+  xlab("Ablated")
 
 b <- ggplot(temp_df, aes(x = model_type, y = RMSE))+
   geom_bar(stat = "identity", fill = "lightgreen", color = "black")+
   geom_errorbar(aes(ymin = RMSE - RMSESD, ymax = RMSE + RMSESD),
                 width = 0.1)+
   theme(axis.text.x = element_text(angle = 25))+
-  ggtitle("RMSE")
+  xlab("Ablated")
 
 c<- ggplot(temp_df, aes(x = model_type, y = MAE))+
   geom_bar(stat = "identity", fill = "chocolate", color = "black")+
   geom_errorbar(aes(ymin = MAE - MAESD, ymax = MAE + MAESD),
                 width = 0.1)+
   theme(axis.text.x = element_text(angle = 25))+
-  ggtitle("MAE")
+  xlab("Ablated")
 
-a + b + c
+
+a + b + c +
+  plot_annotation(title = "Ablation impact")
