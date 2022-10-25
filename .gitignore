@@ -4,3 +4,4 @@ counter-fitted-vectors.txt
 *.7z
 *.gz
 data/*verbargs/
+.DS_Store
