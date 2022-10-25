@@ -1,0 +1,240 @@
+ecain
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+/data/ecain/evaluating_verb_DSM/scripts/verb_dative_alternation.py:100: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  df_type = df_type.idxmax(axis=1)
+unlex-verbargs.02-of-99.tsv
+-102.42759561538696
+unlex-verbargs.03-of-99.tsv
+-92.39551734924316
+unlex-verbargs.04-of-99.tsv
+-100.51009225845337
+unlex-verbargs.05-of-99.tsv
+-104.11034154891968
+unlex-verbargs.06-of-99.tsv
+-108.70571517944336
+unlex-verbargs.07-of-99.tsv
+-100.82104969024658
+unlex-verbargs.08-of-99.tsv
+-97.81631898880005
+unlex-verbargs.09-of-99.tsv
+-106.01095676422119
+unlex-verbargs.10-of-99.tsv
+-101.47041440010071
+unlex-verbargs.11-of-99.tsv
+-116.31397271156311
+unlex-verbargs.12-of-99.tsv
+-111.57444548606873
+unlex-verbargs.13-of-99.tsv
+-116.26655554771423
+unlex-verbargs.14-of-99.tsv
+-96.86796760559082
+unlex-verbargs.15-of-99.tsv
+-106.89310717582703
+unlex-verbargs.16-of-99.tsv
+-99.29653239250183
+unlex-verbargs.17-of-99.tsv
+-102.6978440284729
+unlex-verbargs.18-of-99.tsv
+-104.14307308197021
+unlex-verbargs.19-of-99.tsv
+-99.51214981079102
+unlex-verbargs.20-of-99.tsv
+-96.46652960777283
+unlex-verbargs.21-of-99.tsv
+-103.66245436668396
+unlex-verbargs.22-of-99.tsv
+-96.66323256492615
+unlex-verbargs.23-of-99.tsv
+-104.12400722503662
+unlex-verbargs.24-of-99.tsv
+-107.71213507652283
+unlex-verbargs.25-of-99.tsv
+-97.74683332443237
+unlex-verbargs.26-of-99.tsv
+-112.98925590515137
+unlex-verbargs.27-of-99.tsv
+-97.25336217880249
+unlex-verbargs.28-of-99.tsv
+-104.35935544967651
+unlex-verbargs.29-of-99.tsv
+-100.37848925590515
+unlex-verbargs.30-of-99.tsv
+-90.47328519821167
+unlex-verbargs.31-of-99.tsv
+-101.81231665611267
+unlex-verbargs.32-of-99.tsv
+-105.36117696762085
+unlex-verbargs.33-of-99.tsv
+-94.59177136421204
+unlex-verbargs.34-of-99.tsv
+-132.20582795143127
+unlex-verbargs.35-of-99.tsv
+-104.33549809455872
+unlex-verbargs.36-of-99.tsv
+-98.8801019191742
+unlex-verbargs.37-of-99.tsv
+-99.35266280174255
+unlex-verbargs.38-of-99.tsv
+-134.95343017578125
+unlex-verbargs.39-of-99.tsv
+-92.18547344207764
+unlex-verbargs.40-of-99.tsv
+-102.33566880226135
+unlex-verbargs.41-of-99.tsv
+-92.45104432106018
+unlex-verbargs.42-of-99.tsv
+-95.3753514289856
+unlex-verbargs.43-of-99.tsv
+-96.51565074920654
+unlex-verbargs.44-of-99.tsv
+-93.0416157245636
+unlex-verbargs.45-of-99.tsv
+-103.43564057350159
+unlex-verbargs.46-of-99.tsv
+-99.2619092464447
+unlex-verbargs.47-of-99.tsv
+-92.98313307762146
+unlex-verbargs.48-of-99.tsv
+-98.72390604019165
+unlex-verbargs.49-of-99.tsv
+-93.10947918891907
+unlex-verbargs.50-of-99.tsv
+-100.1483736038208
+unlex-verbargs.51-of-99.tsv
+-101.09267282485962
+unlex-verbargs.52-of-99.tsv
+-100.27738189697266
+unlex-verbargs.53-of-99.tsv
+-96.99046611785889
+unlex-verbargs.54-of-99.tsv
+-112.38287115097046
+unlex-verbargs.55-of-99.tsv
+-100.45702528953552
+unlex-verbargs.56-of-99.tsv
+-99.79698967933655
+unlex-verbargs.57-of-99.tsv
+-104.48232460021973
+unlex-verbargs.58-of-99.tsv
+-138.97484374046326
+unlex-verbargs.59-of-99.tsv
+-99.69295072555542
+unlex-verbargs.60-of-99.tsv
+-95.54153871536255
+unlex-verbargs.61-of-99.tsv
+-94.8103506565094
+unlex-verbargs.62-of-99.tsv
+-94.08597159385681
+unlex-verbargs.63-of-99.tsv
+-104.062251329422
+unlex-verbargs.64-of-99.tsv
+-105.93767428398132
+unlex-verbargs.65-of-99.tsv
+-87.77015376091003
+unlex-verbargs.66-of-99.tsv
+-101.20888018608093
+unlex-verbargs.67-of-99.tsv
+-98.67854142189026
+unlex-verbargs.68-of-99.tsv
+-109.20684862136841
+unlex-verbargs.69-of-99.tsv
+-103.53051042556763
+unlex-verbargs.70-of-99.tsv
+-116.47068047523499
+unlex-verbargs.71-of-99.tsv
+-101.2672610282898
+unlex-verbargs.72-of-99.tsv
+-104.5069477558136
+unlex-verbargs.73-of-99.tsv
+-98.96078372001648
+unlex-verbargs.74-of-99.tsv
+-94.53803181648254
+unlex-verbargs.75-of-99.tsv
+-106.78944611549377
+unlex-verbargs.76-of-99.tsv
+-97.9626133441925
+unlex-verbargs.77-of-99.tsv
+-111.06923460960388
+unlex-verbargs.78-of-99.tsv
+-94.3406572341919
+unlex-verbargs.79-of-99.tsv
+-114.19365930557251
+unlex-verbargs.80-of-99.tsv
+-112.68231964111328
+unlex-verbargs.81-of-99.tsv
+-92.12706708908081
+unlex-verbargs.82-of-99.tsv
+-96.63074207305908
+unlex-verbargs.83-of-99.tsv
+-96.92172932624817
+unlex-verbargs.84-of-99.tsv
+-89.44973087310791
+unlex-verbargs.85-of-99.tsv
+-96.80704116821289
+unlex-verbargs.86-of-99.tsv
+-156.70783925056458
+unlex-verbargs.87-of-99.tsv
+-96.67471194267273
+unlex-verbargs.88-of-99.tsv
+-143.7226231098175
+unlex-verbargs.89-of-99.tsv
+-98.37539052963257
+unlex-verbargs.90-of-99.tsv
+-97.28539991378784
+unlex-verbargs.91-of-99.tsv
+-91.82372260093689
+unlex-verbargs.92-of-99.tsv
+-87.49560260772705
+unlex-verbargs.93-of-99.tsv
+-111.24054884910583
+unlex-verbargs.94-of-99.tsv
+-94.48944449424744
+unlex-verbargs.95-of-99.tsv
+-96.94611382484436
+unlex-verbargs.96-of-99.tsv
+-99.60666513442993
+unlex-verbargs.97-of-99.tsv
+-107.39578151702881
+unlex-verbargs.98-of-99.tsv
+-124.79741740226746
+unlex-verbargs.DEMO.tsv
+-3.0607268810272217
+unlex-verbargs.00-of-99.tsv
+-84.63527774810791
+unlex-verbargs.01-of-99.tsv
+-94.82832145690918
+uptime: /opt/spack/opt/spack/linux-rhel8-icelake/gcc-8.4.1/anaconda3-2021.05-fmo625scqdt32etnaksoexe3rd6sea7j/lib/libuuid.so.1: no version information available (required by /lib64/libblkid.so.1)
+ 20:14:06 up 26 days,  5:34,  0 users,  load average: 1.02, 1.03, 1.00
+node026.cluster
