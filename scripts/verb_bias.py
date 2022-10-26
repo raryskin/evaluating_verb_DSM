@@ -11,6 +11,8 @@ pd.options.mode.chained_assignment = None
 
 target_verbs = ["Strike", "Whack", "Hit", "Rub", "Poke", "Bop", "Smack", "Clean", "Tease", "Feed", "Scuff", "Pinch", "Knock", "Pat", "Locate", "Feel", "Spot", "Point", "Pet", "Look", "Squeeze", "Pick", "Cuddle", "Find", "Hug", "Select", "Choose"]
 
+print("Target verbs:", target_verbs)
+
 target_verb_bias = ["Instrument", "Instrument", "Instrument", "Instrument", "Instrument", "Instrument", "Instrument", "Instrument", "Instrument", "Equibiased", "Equibiased", "Equibiased", "Equibiased", "Equibiased", "Equibiased", "Equibiased", "Equibiased", "Equibiased", "Modifier", "Modifier", "Modifier", "Modifier", "Modifier", "Modifier", "Modifier", "Modifier", "Modifier"]
 
 
@@ -51,19 +53,22 @@ result = pd.DataFrame()
 
 verb_bias_df = pd.DataFrame()
 
-for filename in os.listdir("../data/ngram_verbargs"):
-    print(filename)
+syntgram_dir = "../data/triarcs"
+# syntgram_dir = "/home/ecain/borgstore/ecain/syntactic-ngrams/triarcs"
+
+for filename in os.listdir(syntgram_dir):
+    print("Filename:",filename)
     start = time.time()
     raw_data = []
 
     # This because normal reading in the CSV was generating errors!
     # df = pd.read_csv(open("./verb_args/"+filename, 'rt'), encoding='utf-8', engine='c', names=col_names, usecols=[0,1,2], sep="\t")
-    with open("../data/ngram_verbargs/"+filename) as f:
+    with open(syntgram_dir + "/" + filename) as f:
         reader = csv.reader(f, delimiter='\t', quotechar = None, doublequote= True)
         raw_data = [r for r in reader]
         
     df = pd.DataFrame(data=raw_data)
-    # print(df)
+    print(df)
     dates = df.loc[:, ~ df.columns.isin([0,1,2])]
 
     # print(dates)
@@ -79,17 +84,19 @@ for filename in os.listdir("../data/ngram_verbargs"):
 
     # print(df)
     df_subset = df[df.verb.isin(target_verbs)]
+    print("\nSubset:")
+    print(df_subset)
 
     verb_bias_df = pd.concat([verb_bias_df, df_subset], axis = 0)
 
     verb_bias_df.to_csv("../data_output/verb_bias_data.tsv", sep = "\t", index = False)
 
 
-    # contains prepc & vmod
-    df_subset["prepc_vmod"] = df_subset.arg_structure.str.contains("(?=prepc)(?=.*vmod)", regex=True)
+    # # contains prepc & vmod
+    # df_subset["prepc_vmod"] = df_subset.arg_structure.str.contains("(?=prepc)(?=.*vmod)", regex=True)
 
-    # contains prepc & nn
-    df_subset["prepc_nn"] = df_subset.arg_structure.str.contains("(?=prepc)(?=.*nn)", regex=True)
+    # # contains prepc & nn
+    # df_subset["prepc_nn"] = df_subset.arg_structure.str.contains("(?=prepc)(?=.*nn)", regex=True)
 
     # #iobj & dobj
     # df_subset["iobj_dobj"] = df_subset.arg_structure.str.contains("(?=iobj)(?=.*dobj)", regex=True)
