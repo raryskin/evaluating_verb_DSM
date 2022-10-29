@@ -1,8 +1,8 @@
 #!/bin/bash  
 #SBATCH --mail-user=ecain@ucmerced.edu  
 #SBATCH --mail-type=ALL  
-#SBATCH -p medium
-#SBATCH -t 05:00:00
+#SBATCH -p test
+#SBATCH -t 01:00:00
 #SBATCH --ntasks-per-node=56
 #SBATCH --output=log_verb_bias.qlog  
 #SBATCH --job-name=v_bias
@@ -11,7 +11,7 @@
 whoami
 
 module load anaconda3
-source activate r_env
+source activate dlc_env
 python verb_bias.py
 
 uptime
