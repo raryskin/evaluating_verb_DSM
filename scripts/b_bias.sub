@@ -1,9 +1,9 @@
 #!/bin/bash  
-#SBATCH --mail-user=ecain@ucmerced.edu  
-#SBATCH --mail-type=ALL  
-#SBATCH -p test
-#SBATCH -t 01:00:00
-#SBATCH --ntasks-per-node=56
+#SBATCH --nodes=1
+#SBATCH --ntasks=20
+#SBATCH --partition test
+#SBATCH --mem=96G
+#SBATCH --time=0-01:00:00
 #SBATCH --output=log_verb_bias.qlog  
 #SBATCH --job-name=v_bias
 #SBATCH --export=ALL
