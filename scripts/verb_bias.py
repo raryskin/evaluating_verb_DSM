@@ -9,7 +9,7 @@ from collections import Counter
 
 pd.options.mode.chained_assignment = None
 
-target_verbs = ["Strike", "Whack", "Hit", "Rub", "Poke", "Bop", "Smack", "Clean", "Tease", "Feed", "Scuff", "Pinch", "Knock", "Pat", "Locate", "Feel", "Spot", "Point", "Pet", "Look", "Squeeze", "Pick", "Cuddle", "Find", "Hug", "Select", "Choose"]
+target_verbs = ["strike", "whack", "hit", "rub", "poke", "bop", "smack", "clean", "tease", "feed", "scuff", "pinch", "knock", "pat", "locate", "feel", "spot", "point", "pet", "look", "squeeze", "pick", "cuddle", "find", "hug", "select", "choose"]
 
 print("Target verbs:", target_verbs)
 
@@ -46,15 +46,54 @@ def sum_dicts(set_of_dicts):
         initial = initial + Counter(set_of_dicts[i])
     return sorted(initial.items())
 
+def check_bias_alt(arg_structure):
+    # print(arg_structure)
+    
+    holder = []
+    root_index = -1
+    connection_target_index_word = "with"
+    with_index = -1
+    connection_target_index = -1
+
+    counter = 1
+    for word in arg_structure.split(" "):
+        temp = word.split("/")
+        if temp[0] == "with":
+            connection_target_index = int(temp[3])
+            with_index = counter
+        if temp[3] == "0":
+            root_index = counter
+            root_verb = temp[0]
+        else:
+            counter = counter + 1
+        holder.append(temp)
+
+    # print(root_verb, root_index)
+    # print(connection_target_index_word, connection_target_index)
+    
+    # print(root_verb)
+    # print(re.search("(?="+root_verb+")(?=.*with/)", arg_structure) == None)
+    # print((root_index == with_index))
+    # print(root_index, with_index)
+    # print()
+    if (re.search("(?="+root_verb+")(?=.*with/)", arg_structure) == None):
+        return "no_with"
+    elif (root_index == with_index): # If root verb is not followed by "with"
+        return "neither"
+    if root_index == connection_target_index:
+        # print("Instrument bias")
+        return "instrument"
+    else:
+        # print("Modifier bias")
+        return "modifier"
+
 
 csv.field_size_limit(sys.maxsize)
 col_names = ["verb", "arg_structure", "count"]
 result = pd.DataFrame()
 
-verb_bias_df = pd.DataFrame()
-
-syntgram_dir = "../data/triarcs"
-# syntgram_dir = "/home/ecain/borgstore/ecain/syntactic-ngrams/triarcs"
+# syntgram_dir = "../data/triarcs"
+syntgram_dir = "/home/ecain/borgstore/ecain/syntactic-ngrams/triarcs"
 
 for filename in os.listdir(syntgram_dir):
     print("Filename:",filename)
@@ -68,7 +107,7 @@ for filename in os.listdir(syntgram_dir):
         raw_data = [r for r in reader]
         
     df = pd.DataFrame(data=raw_data)
-    print(df)
+    # print(df)
     dates = df.loc[:, ~ df.columns.isin([0,1,2])]
 
     # print(dates)
@@ -87,71 +126,28 @@ for filename in os.listdir(syntgram_dir):
     print("\nSubset:")
     print(df_subset)
 
-    verb_bias_df = pd.concat([verb_bias_df, df_subset], axis = 0)
+    df_subset["bias"] = df_subset["arg_structure"].apply(check_bias_alt)
 
-    verb_bias_df.to_csv("../data_output/verb_bias_data.tsv", sep = "\t", index = False)
+    for verb in pd.unique(df_subset.verb):
+        for bias in pd.unique(df_subset.bias):
+            print(verb, bias)
+            temp = df_subset[(df_subset["verb"] == verb) & (df_subset["bias"] == bias)]
+            if len(temp) != 0:
+                print(temp)
+                total_count = temp["count"].sum()
+                year_counts = sum_dicts(temp["year_count"].values)
+            else:
+                total_count = 0
+                year_counts = -1
 
+            new_row = {"verb":[verb], "bias":[bias], "total_count": [total_count], "year_count":[year_counts]}
+            new_row = pd.DataFrame(new_row)
+            print()
+            result = pd.concat([result, new_row], axis = 0)
 
-    # # contains prepc & vmod
-    # df_subset["prepc_vmod"] = df_subset.arg_structure.str.contains("(?=prepc)(?=.*vmod)", regex=True)
+    end = time.time()
+    print(start - end)
 
-    # # contains prepc & nn
-    # df_subset["prepc_nn"] = df_subset.arg_structure.str.contains("(?=prepc)(?=.*nn)", regex=True)
-
-    # #iobj & dobj
-    # df_subset["iobj_dobj"] = df_subset.arg_structure.str.contains("(?=iobj)(?=.*dobj)", regex=True)
-
-    # #dobj & pobj
-    # df_subset["dobj_pobj"] = df_subset.arg_structure.str.contains("(?=dobj)(?=.*pobj)", regex=True)
-
-    # #dobj only
-    # df_subset["dobj"] = df_subset.arg_structure.str.contains("dobj") & ~df_subset.arg_structure.str.contains("iobj") & ~df_subset.arg_structure.str.contains("pobj")
-
-    # #other
-    # df_subset["other"] = ~df_subset["dobj"] & ~df_subset["dobj_pobj"] & ~df_subset["iobj_dobj"]
-
-    # #Check column
-    # df_subset["check"] = df_subset["dobj"] + df_subset["dobj_pobj"] + df_subset["iobj_dobj"] + df_subset["other"]
-
-    # # print(df_subset)
-    # df_type = df_subset[["verb","dobj","dobj_pobj","iobj_dobj","other"]]
-    # for col in ["dobj","dobj_pobj","iobj_dobj","other"]:
-    #     df_type[col] = df_type[col].replace({True: 1, False: 0})
-    # df_type = df_type.set_index("verb")
-
-    # df_type = df_type.idxmax(axis=1)
-
-    # # arg_data = df_subset.groupby(["verb", "iobj_dobj", "dobj_pobj", "dobj"])["count"].sum()
-    # # arg_data = arg_data.unstack().unstack().reset_index()
-    # # print(arg_data)
-
-    # df_subset["alternation"] = df_type.values
-
-    # df_subset = df_subset.drop(["arg_structure", "dobj", "dobj_pobj","iobj_dobj","check","other"], axis = 1)
-
-    # # print(df_subset)
-
-    # for verb in pd.unique(df_subset.verb):
-    #     for alternation in pd.unique(df_subset.alternation):
-    #         # print(verb, alternation)
-    #         temp = df_subset[(df_subset["verb"] == verb) & (df_subset["alternation"] == alternation)]
-    #         if len(temp) != 0:
-    #             # print(temp)
-    #             total_count = temp["count"].sum()
-    #             year_counts = sum_dicts(temp["year_count"].values)
-    #         else:
-    #             total_count = 0
-    #             year_counts = -1
-
-    #         new_row = {"verb":[verb], "alternation":[alternation], "total_count": [total_count], "year_count":[year_counts]}
-    #         new_row = pd.DataFrame(new_row)
-    #         # print()
-    #         result = pd.concat([result, new_row], axis = 0)
-
-
-    # end = time.time()
-    # print(start - end)
-
-    # result.to_csv("../data_output/verb_dative_alternation.tsv", sep='\t', index=False)
+    result.to_csv("../data_output/verb_bias.tsv", sep='\t', index=False)
 
     
