@@ -69,14 +69,6 @@ def check_bias_alt(arg_structure):
             counter = counter + 1
         holder.append(temp)
 
-    # print(root_verb, root_index)
-    # print(connection_target_index_word, connection_target_index)
-    
-    # print(root_verb)
-    # print(re.search("(?="+root_verb+")(?=.*with/)", arg_structure) == None)
-    # print((root_index == with_index))
-    # print(root_index, with_index)
-    # print()
     if (re.search("(?="+root_verb+")(?=.*with/)", arg_structure) == None):
         return "no_with"
     elif (root_index == with_index): # If root verb is not followed by "with"
@@ -108,6 +100,8 @@ for filename in os.listdir(syntgram_dir):
         raw_data = [r for r in reader]
         
     df = pd.DataFrame(data=raw_data)
+    df = df[df.verb.isin(target_verbs)]
+
     # print(df)
     dates = df.loc[:, ~ df.columns.isin([0,1,2])]
 
@@ -122,17 +116,17 @@ for filename in os.listdir(syntgram_dir):
     df["count"] = df["count"].astype(int)
     df["year_count"] = dates["counts"]
 
+    # Filtered earlier to reduce memory constraints
+    # df = df[df.verb.isin(target_verbs)]
+    # print("\nSubset:")
     # print(df)
-    df_subset = df[df.verb.isin(target_verbs)]
-    print("\nSubset:")
-    print(df_subset)
 
-    df_subset["bias"] = df_subset["arg_structure"].apply(check_bias_alt)
+    df["bias"] = df["arg_structure"].apply(check_bias_alt)
 
-    for verb in pd.unique(df_subset.verb):
-        for bias in pd.unique(df_subset.bias):
+    for verb in pd.unique(df.verb):
+        for bias in pd.unique(df.bias):
             print(verb, bias)
-            temp = df_subset[(df_subset["verb"] == verb) & (df_subset["bias"] == bias)]
+            temp = df[(df["verb"] == verb) & (df["bias"] == bias)]
             if len(temp) != 0:
                 print(temp)
                 total_count = temp["count"].sum()
