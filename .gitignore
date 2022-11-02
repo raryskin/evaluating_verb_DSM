@@ -5,3 +5,6 @@ counter-fitted-vectors.txt
 *.gz
 data/*verbargs/
 .DS_Store
+data/find_with.tsv
+.gitignore
+data_output/test.csv
