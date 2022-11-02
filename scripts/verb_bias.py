@@ -1,3 +1,4 @@
+print("init")
 #source: https://github.com/wilcoxeg/verb_transitivity/blob/master/arg_structure_extractor.py
 
 import pandas as pd
@@ -149,5 +150,6 @@ for filename in os.listdir(syntgram_dir):
     print(start - end)
 
     result.to_csv("../data_output/verb_bias.tsv", sep='\t', index=False)
+    print(filename,"done")
 
     
