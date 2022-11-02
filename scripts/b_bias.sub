@@ -1,11 +1,11 @@
 #!/bin/bash  
 #SBATCH --nodes=1
 #SBATCH --ntasks=20
-#SBATCH --partition test
+#SBATCH --partition compute
 #SBATCH --mem=96G
 #SBATCH --time=0-01:00:00
-#SBATCH --output=log_verb_bias.qlog  
-#SBATCH --job-name=v_bias
+#SBATCH --output=log_vbias.qlog  
+#SBATCH --job-name=vbias
 #SBATCH --export=ALL
 
 whoami

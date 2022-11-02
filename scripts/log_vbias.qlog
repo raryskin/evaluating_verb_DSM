@@ -1,0 +1,8 @@
+ecain
+init /data/ecain/evaluating_verb_DSM/scripts
+Traceback (most recent call last):
+  File "/data/ecain/evaluating_verb_DSM/scripts/verb_bias.py", line 93, in <module>
+    for filename in os.listdir(syntgram_dir):
+FileNotFoundError: [Errno 2] No such file or directory: '../../borgstore/ecain/syntactic-ngrams/triarcs'
+ 10:18:17 up 76 days, 21:12,  0 users,  load average: 0.08, 0.03, 0.05
+mrcd30.cluster
