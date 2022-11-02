@@ -1,4 +1,3 @@
-print("init")
 #source: https://github.com/wilcoxeg/verb_transitivity/blob/master/arg_structure_extractor.py
 
 import pandas as pd
@@ -8,11 +7,13 @@ import time
 import sys
 from collections import Counter
 
+print("init", os.getcwd())
+
 pd.options.mode.chained_assignment = None
 
 target_verbs = ["strike", "whack", "hit", "rub", "poke", "bop", "smack", "clean", "tease", "feed", "scuff", "pinch", "knock", "pat", "locate", "feel", "spot", "point", "pet", "look", "squeeze", "pick", "cuddle", "find", "hug", "select", "choose"]
 
-print("Target verbs:", target_verbs)
+# print("Target verbs:", target_verbs)
 
 target_verb_bias = ["Instrument", "Instrument", "Instrument", "Instrument", "Instrument", "Instrument", "Instrument", "Instrument", "Instrument", "Equibiased", "Equibiased", "Equibiased", "Equibiased", "Equibiased", "Equibiased", "Equibiased", "Equibiased", "Equibiased", "Modifier", "Modifier", "Modifier", "Modifier", "Modifier", "Modifier", "Modifier", "Modifier", "Modifier"]
 
