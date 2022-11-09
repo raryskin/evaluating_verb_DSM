@@ -2,18 +2,18 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=20
 #SBATCH --partition compute
-#SBATCH --mem=96G
 #SBATCH --constraint=ib
-#SBATCH --time=0-24:00:00
-#SBATCH --output=log_vbias.qlog  
-#SBATCH --job-name=vbias
+#SBATCH --mem=96G
+#SBATCH --time=0-05:00:00
+#SBATCH --output=log_grep.qlog  
+#SBATCH --job-name=vbGRP
 #SBATCH --export=ALL
 
 whoami
 
 module load anaconda3
 source activate dlc_env
-python verb_bias.py
+python verb_bias-GREP.py
 
 uptime
 hostname
