@@ -1,10 +1,10 @@
 #!/bin/bash  
-#SBATCH --nodes=1
-#SBATCH --ntasks=20
-#SBATCH --partition compute
-#SBATCH --mem=96G
-#SBATCH --constraint=ib
-#SBATCH --time=0-24:00:00
+#SBATCH --mail-user=ecain@ucmerced.edu  
+#SBATCH --mail-type=ALL  
+#SBATCH -p medium
+#SBATCH -t 03:00:00
+#SBATCH -p dept.cogsci
+#SBATCH --ntasks-per-node=56
 #SBATCH --output=log_vbias.qlog  
 #SBATCH --job-name=vbias
 #SBATCH --export=ALL
