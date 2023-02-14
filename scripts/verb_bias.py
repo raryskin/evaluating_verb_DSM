@@ -87,7 +87,7 @@ col_names = ["verb", "arg_structure", "count"]
 result = pd.DataFrame()
 
 # syntgram_dir = "../data/triarcs"
-syntgram_dir = "/home/ecain/borgstore/ecain/syntactic-ngrams/triarcs" ## Issue when submitted through slurm
+syntgram_dir = "/home/ecain/borgstore/ecain/syntactic-ngrams/filtered_triarcs" ## Issue when submitted through slurm
 
 for filename in os.listdir(syntgram_dir):
     print("Filename:",filename)
