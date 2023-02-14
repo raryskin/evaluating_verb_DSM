@@ -1,0 +1,378 @@
+scuff	clog/NN/nsubj/4 or/CC/cc/1 sandal/NN/conj/1 scuff/VB/ccomp/0 with/IN/prep/4 step/NN/pobj/5	10	1891,3	1893,1	1902,2	1925,3	2000,1
+scuff	either/DT/preconj/2 clog/NN/nsubj/3 scuff/VB/ccomp/0 with/IN/prep/3 step/NN/pobj/4	10	1891,3	1893,1	1902,2	1925,3	2000,1
+scuff	that/IN/compl/3 clog/NN/nsubj/3 scuff/VB/ccomp/0 with/IN/prep/3 step/NN/pobj/4	10	1891,3	1893,1	1902,2	1925,3	2000,1
+scuffed	always/RB/advmod/2 scuffed/VBD/rcmod/0 sidewalk/NN/dobj/2 with/IN/prep/2 bracelets/NNS/pobj/4	49	1970,2	1972,1	1974,4	1975,1	1977,2	1978,1	1981,2	1982,1	1985,3	1987,1	1990,2	1992,1	1993,3	1994,4	1996,2	1997,1	1999,3	2001,2	2002,1	2003,1	2004,3	2005,5	2006,1	2007,2
+scuffed	always/RB/advmod/2 scuffed/VBD/rcmod/0 with/IN/prep/2 bracelets/NNS/pobj/3 jingling/VBG/partmod/4	49	1970,2	1972,1	1974,4	1975,1	1977,2	1978,1	1981,2	1982,1	1985,3	1987,1	1990,2	1992,1	1993,3	1994,4	1996,2	1997,1	1999,3	2001,2	2002,1	2003,1	2004,3	2005,5	2006,1	2007,2
+scuffed	always/RB/advmod/2 scuffed/VBD/rcmod/0 with/IN/prep/2 charm/NN/nn/5 bracelets/NNS/pobj/3	49	1970,2	1972,1	1974,4	1975,1	1977,2	1978,1	1981,2	1982,1	1985,3	1987,1	1990,2	1992,1	1993,3	1994,4	1996,2	1997,1	1999,3	2001,2	2002,1	2003,1	2004,3	2005,5	2006,1	2007,2
+scuffed	by/IN/prep/3 nightfall/NN/pobj/1 scuffed/VBN/ROOT/0 and/CC/cc/3 wet/JJ/conj/3 with/IN/prep/3 break/NN/pobj/6	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	by/IN/prep/3 nightfall/NN/pobj/1 scuffed/VBN/ROOT/0 in/IN/prep/3 scuffle/NN/pobj/4 with/IN/prep/5 brother/NN/pobj/6	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	by/IN/prep/3 nightfall/NN/pobj/1 scuffed/VBN/ROOT/0 with/IN/prep/3 break/NN/pobj/4 in/IN/prep/3 scuffle/NN/pobj/6	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	by/IN/prep/3 nightfall/NN/pobj/1 scuffed/VBN/ROOT/0 with/IN/prep/3 break/NN/pobj/4 in/IN/prep/5 one/CD/pobj/6	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	by/IN/prep/4 nightfall/NN/pobj/1 rather/RB/advmod/4 scuffed/VBN/ROOT/0 with/IN/prep/4 break/NN/pobj/5	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	by/IN/prep/4 nightfall/NN/pobj/1 shoes/NNS/nsubj/4 scuffed/VBN/ROOT/0 with/IN/prep/4 break/NN/pobj/5	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	each/DT/nsubj/2 scuffed/VBN/ROOT/0 energetically/RB/advmod/2 with/IN/prep/2 shoe/NN/pobj/4	14	1916,3	1922,3	1932,1	1944,2	2001,1	2006,1	2008,3
+scuffed	each/DT/nsubj/3 now/RB/advmod/3 scuffed/VBN/ROOT/0 with/IN/prep/3 shoe/NN/pobj/4	14	1916,3	1922,3	1932,1	1944,2	2001,1	2006,1	2008,3
+scuffed	for/IN/prep/3 time/NN/pobj/1 scuffed/VBD/ROOT/0 floor/NN/dobj/3 with/IN/prep/3 shoe/NN/pobj/5	18	1916,6	1924,1	1925,1	2003,1	2005,1	2006,1	2007,3	2008,4
+scuffed	for/IN/prep/4 time/NN/pobj/1 he/PRP/nsubj/4 scuffed/VBD/ROOT/0 with/IN/prep/4 shoe/NN/pobj/5	18	1916,6	1924,1	1925,1	2003,1	2005,1	2006,1	2007,3	2008,4
+scuffed	he/PRP/nsubj/2 scuffed/VBD/ROOT/0 dirt/NN/dobj/2 with/IN/prep/2 toe/NN/pobj/4	18	1978,3	1986,1	1997,5	2002,1	2003,1	2004,2	2006,5
+scuffed	he/PRP/nsubj/2 scuffed/VBD/ROOT/0 floor/NN/dobj/2 with/IN/prep/2 shoe/NN/pobj/4	18	1916,6	1924,1	1925,1	2003,1	2005,1	2006,1	2007,3	2008,4
+scuffed	he/PRP/nsubj/2 scuffed/VBD/ROOT/0 ground/NN/dobj/2 with/IN/prep/2 foot/NN/pobj/4	12	1941,1	1958,2	1986,1	1994,1	2000,1	2004,2	2005,1	2007,3
+scuffed	he/PRP/nsubj/2 scuffed/VBD/ROOT/0 ground/NN/dobj/2 with/IN/prep/2 toe/NN/pobj/4	11	1945,3	1975,1	1977,1	1986,1	1989,1	1993,1	1998,1	2003,1	2006,1
+scuffed	he/PRP/nsubj/2 scuffed/VBD/ROOT/0 with/IN/prep/2 toe/NN/pobj/3 of/IN/prep/4 boot/NN/pobj/5	17	1952,1	1974,1	1975,1	1987,1	1991,2	1993,1	1995,1	2001,1	2002,1	2005,1	2006,1	2007,3	2008,2
+scuffed	he/PRP/nsubj/2 scuffed/VBD/ROOT/0 with/IN/prep/2 toe/NN/pobj/3 of/IN/prep/4 shoe/NN/pobj/5	15	1935,1	1986,1	1991,1	1998,1	2000,1	2001,1	2002,1	2003,1	2004,2	2006,1	2007,2	2008,2
+scuffed	kid/NN/nn/2 shoes/NNS/nsubj/3 scuffed/VBN/ROOT/0 with/IN/prep/3 break/NN/pobj/4	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	now/RB/advmod/2 scuffed/VBN/ROOT/0 energetically/RB/advmod/2 with/IN/prep/2 shoe/NN/pobj/4	14	1916,3	1922,3	1932,1	1944,2	2001,1	2006,1	2008,3
+scuffed	rather/RB/advmod/2 scuffed/VBN/ROOT/0 and/CC/cc/2 wet/JJ/conj/2 with/IN/prep/2 break/NN/pobj/5	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	rather/RB/advmod/2 scuffed/VBN/ROOT/0 in/IN/prep/2 scuffle/NN/pobj/3 with/IN/prep/4 brother/NN/pobj/5	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	rather/RB/advmod/2 scuffed/VBN/ROOT/0 with/IN/prep/2 break/NN/pobj/3 in/IN/prep/2 scuffle/NN/pobj/5	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	rather/RB/advmod/2 scuffed/VBN/ROOT/0 with/IN/prep/2 break/NN/pobj/3 in/IN/prep/4 one/CD/pobj/5	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	scuffed/VBD/ROOT/0 dirt/NN/dobj/1 with/IN/prep/1 boot/NN/nn/5 toe/NN/pobj/3	13	1997,5	2003,1	2004,3	2005,1	2006,3
+scuffed	scuffed/VBD/ROOT/0 dust/NN/dobj/1 into/IN/prep/1 puffs/NNS/pobj/3 with/IN/prep/1 shoe/NN/pobj/5	30	1939,1	1940,1	1941,1	1943,3	1947,4	1949,1	1953,1	1954,3	1955,1	1962,1	1965,1	1974,1	1975,1	1978,1	1979,1	1980,3	1982,2	1996,1	1998,1	2004,1
+scuffed	scuffed/VBD/ROOT/0 dust/NN/dobj/1 with/IN/prep/1 worn/JJ/amod/5 shoe/NN/pobj/3	30	1939,1	1940,1	1941,1	1943,3	1947,4	1949,1	1953,1	1954,3	1955,1	1962,1	1965,1	1974,1	1975,1	1978,1	1979,1	1980,3	1982,2	1996,1	1998,1	2004,1
+scuffed	scuffed/VBD/ROOT/0 floor/NN/dobj/1 with/IN/prep/1 toe/NN/pobj/3 of/IN/prep/4 shoe/NN/pobj/5	10	1987,1	1988,1	1991,1	2002,2	2003,4	2007,1
+scuffed	scuffed/VBD/ROOT/0 into/IN/prep/1 little/JJ/amod/4 puffs/NNS/pobj/2 with/IN/prep/1 shoe/NN/pobj/5	30	1939,1	1940,1	1941,1	1943,3	1947,4	1949,1	1953,1	1954,3	1955,1	1962,1	1965,1	1974,1	1975,1	1978,1	1979,1	1980,3	1982,2	1996,1	1998,1	2004,1
+scuffed	scuffed/VBD/ROOT/0 into/IN/prep/1 puffs/NNS/pobj/2 with/IN/prep/1 worn/JJ/amod/6 shoe/NN/pobj/4	30	1939,1	1940,1	1941,1	1943,3	1947,4	1949,1	1953,1	1954,3	1955,1	1962,1	1965,1	1974,1	1975,1	1978,1	1979,1	1980,3	1982,2	1996,1	1998,1	2004,1
+scuffed	scuffed/VBD/conj/0 folds/NNS/dobj/1 in/IN/prep/2 sand/NN/pobj/3 with/IN/prep/1 foot/NN/pobj/5	17	1926,3	1953,4	1954,2	1956,1	1961,1	1962,1	1966,1	1971,1	1974,1	1995,1	2006,1
+scuffed	scuffed/VBD/conj/0 folds/NNS/dobj/1 with/IN/prep/1 slippered/NN/nn/5 foot/NN/pobj/3	17	1926,3	1953,4	1954,2	1956,1	1961,1	1962,1	1966,1	1971,1	1974,1	1995,1	2006,1
+scuffed	scuffed/VBD/conj/0 lower/JJR/amod/3 folds/NNS/dobj/1 with/IN/prep/1 foot/NN/pobj/4	17	1926,3	1953,4	1954,2	1956,1	1961,1	1962,1	1966,1	1971,1	1974,1	1995,1	2006,1
+scuffed	scuffed/VBD/rcmod/0 sandals/NNS/dobj/1 with/IN/ref/4 protecting/VBG/rcmod/2	11	1951,1	1958,6	1961,1	1976,1	2007,1	2008,1
+scuffed	scuffed/VBD/rcmod/0 sidewalk/NN/dobj/1 with/IN/prep/1 bracelets/NNS/pobj/3 jingling/VBG/partmod/4	49	1970,2	1972,1	1974,4	1975,1	1977,2	1978,1	1981,2	1982,1	1985,3	1987,1	1990,2	1992,1	1993,3	1994,4	1996,2	1997,1	1999,3	2001,2	2002,1	2003,1	2004,3	2005,5	2006,1	2007,2
+scuffed	scuffed/VBD/rcmod/0 sidewalk/NN/dobj/1 with/IN/prep/1 charm/NN/nn/5 bracelets/NNS/pobj/3	49	1970,2	1972,1	1974,4	1975,1	1977,2	1978,1	1981,2	1982,1	1985,3	1987,1	1990,2	1992,1	1993,3	1994,4	1996,2	1997,1	1999,3	2001,2	2002,1	2003,1	2004,3	2005,5	2006,1	2007,2
+scuffed	scuffed/VBD/rcmod/0 with/IN/prep/1 bracelets/NNS/pobj/2 jingling/VBG/partmod/3 on/IN/prep/4 wrists/NNS/pobj/5	49	1970,2	1972,1	1974,4	1975,1	1977,2	1978,1	1981,2	1982,1	1985,3	1987,1	1990,2	1992,1	1993,3	1994,4	1996,2	1997,1	1999,3	2001,2	2002,1	2003,1	2004,3	2005,5	2006,1	2007,2
+scuffed	scuffed/VBD/rcmod/0 with/IN/prep/1 charm/NN/nn/4 bracelets/NNS/pobj/2 jingling/VBG/partmod/4	49	1970,2	1972,1	1974,4	1975,1	1977,2	1978,1	1981,2	1982,1	1985,3	1987,1	1990,2	1992,1	1993,3	1994,4	1996,2	1997,1	1999,3	2001,2	2002,1	2003,1	2004,3	2005,5	2006,1	2007,2
+scuffed	scuffed/VBN/ROOT/0 and/CC/cc/1 very/RB/advmod/4 wet/JJ/conj/1 with/IN/prep/1 break/NN/pobj/5	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	scuffed/VBN/ROOT/0 and/CC/cc/1 wet/JJ/conj/1 in/IN/prep/1 scuffle/NN/pobj/4 with/IN/prep/5 brother/NN/pobj/6	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	scuffed/VBN/ROOT/0 and/CC/cc/1 wet/JJ/conj/1 with/IN/prep/1 break/NN/pobj/4 in/IN/prep/1 scuffle/NN/pobj/6	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	scuffed/VBN/ROOT/0 and/CC/cc/1 wet/JJ/conj/1 with/IN/prep/1 break/NN/pobj/4 in/IN/prep/5 one/CD/pobj/6	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	scuffed/VBN/ROOT/0 epithelial/JJ/amod/3 surface/NN/dobj/1 with/IN/prep/1 tissue/NN/pobj/4	11	1959,2	1971,2	1983,1	1989,1	1999,2	2004,3
+scuffed	scuffed/VBN/ROOT/0 less/RBR/advmod/3 energetically/RB/advmod/1 with/IN/prep/1 shoe/NN/pobj/4	14	1916,3	1922,3	1932,1	1944,2	2001,1	2006,1	2008,3
+scuffed	scuffed/VBN/ROOT/0 surface/NN/dobj/1 with/IN/prep/1 connective/JJ/amod/5 tissue/NN/pobj/3	11	1959,2	1971,2	1983,1	1989,1	1999,2	2004,3
+scuffed	scuffed/VBN/ROOT/0 surface/NN/dobj/1 with/IN/prep/1 denuded/VBN/amod/5 tissue/NN/pobj/3	11	1959,2	1971,2	1983,1	1989,1	1999,2	2004,3
+scuffed	scuffed/VBN/ROOT/0 surface/NN/dobj/1 with/IN/prep/1 underlying/VBG/amod/5 tissue/NN/pobj/3	11	1959,2	1971,2	1983,1	1989,1	1999,2	2004,3
+scuffed	scuffed/VBN/ROOT/0 with/IN/prep/1 break/NN/pobj/2 in/IN/prep/1 scuffle/NN/pobj/4 with/IN/prep/5 brother/NN/pobj/6	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	scuffed/VBN/ROOT/0 with/IN/prep/1 break/NN/pobj/2 in/IN/prep/3 one/CD/pobj/4 in/IN/prep/1 scuffle/NN/pobj/6	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	scuffed/VBN/ROOT/0 with/IN/prep/1 break/NN/pobj/2 in/IN/prep/3 one/CD/pobj/4 of/IN/prep/5 tips/NNS/pobj/6	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	scuffed/VBN/ROOT/0 with/IN/prep/1 denuded/VBN/amod/5 connective/JJ/amod/5 tissue/NN/pobj/2	11	1959,2	1971,2	1983,1	1989,1	1999,2	2004,3
+scuffed	scuffed/VBN/ROOT/0 with/IN/prep/1 denuded/VBN/amod/5 underlying/VBG/amod/5 tissue/NN/pobj/2	11	1959,2	1971,2	1983,1	1989,1	1999,2	2004,3
+scuffed	scuffed/VBN/ROOT/0 with/IN/prep/1 underlying/VBG/amod/5 connective/JJ/amod/5 tissue/NN/pobj/2	11	1959,2	1971,2	1983,1	1989,1	1999,2	2004,3
+scuffed	scuffed/VBN/ccomp/0 hair/NN/nsubj/3 covered/VBN/ccomp/1 with/IN/prep/3 dust/NN/pobj/4	12	1961,11	1963,1
+scuffed	scuffed/VBN/ccomp/0 torn/VBN/ccomp/1 covered/VBN/ccomp/1 with/IN/prep/3 dust/NN/pobj/4	12	1961,11	1963,1
+scuffed	scuffed/VBN/conj/0 at/IN/prep/1 sand/NN/pobj/2 with/IN/prep/1 calloused/JJ/amod/6 heel/NN/pobj/4	12	1952,2	1957,2	1962,2	1966,2	1970,1	1998,2	2003,1
+scuffed	scuffed/VBN/conj/0 at/IN/prep/1 sand/NN/pobj/2 with/IN/prep/1 one/CD/num/6 heel/NN/pobj/4	12	1952,2	1957,2	1962,2	1966,2	1970,1	1998,2	2003,1
+scuffed	scuffed/VBN/conj/0 with/IN/prep/1 one/CD/num/5 calloused/JJ/amod/5 heel/NN/pobj/2	12	1952,2	1957,2	1962,2	1966,2	1970,1	1998,2	2003,1
+scuffed	scuffed/VBN/partmod/0 with/IN/prep/1 boots/NNS/pobj/2 and/CC/cc/3 polished/JJ/conj/3 by/IN/prep/5 pads/NNS/pobj/6	17	1929,2	1953,1	1954,2	1956,2	1969,3	1973,1	1974,1	1978,4	1990,1
+scuffed	scuffed/VBN/partmod/0 with/IN/prep/1 heavy/JJ/amod/4 boots/NNS/pobj/2 and/CC/cc/4 polished/JJ/conj/4	17	1929,2	1953,1	1954,2	1956,2	1969,3	1973,1	1974,1	1978,4	1990,1
+scuffed	she/PRP/nsubj/2 scuffed/VBD/ROOT/0 with/IN/prep/2 toe/NN/pobj/3 of/IN/prep/4 shoe/NN/pobj/5	10	1929,1	1945,2	1954,1	1956,1	1961,1	1962,1	1988,1	1993,2
+scuffed	shoes/NNS/nsubj/2 scuffed/VBN/ROOT/0 and/CC/cc/2 wet/JJ/conj/2 with/IN/prep/2 break/NN/pobj/5	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	shoes/NNS/nsubj/2 scuffed/VBN/ROOT/0 in/IN/prep/2 scuffle/NN/pobj/3 with/IN/prep/4 brother/NN/pobj/5	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	shoes/NNS/nsubj/2 scuffed/VBN/ROOT/0 with/IN/prep/2 break/NN/pobj/3 in/IN/prep/2 scuffle/NN/pobj/5	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	shoes/NNS/nsubj/2 scuffed/VBN/ROOT/0 with/IN/prep/2 break/NN/pobj/3 in/IN/prep/4 one/CD/pobj/5	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	shoes/NNS/nsubj/2 scuffed/VBN/ccomp/0 covered/VBN/ccomp/2 with/IN/prep/3 dust/NN/pobj/4	13	1946,1	1961,11	1963,1
+scuffed	shoes/NNS/nsubj/3 rather/RB/advmod/3 scuffed/VBN/ROOT/0 with/IN/prep/3 break/NN/pobj/4	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffed	steve/NNP/nsubj/2 scuffed/VBD/ROOT/0 dust/NN/dobj/2 with/IN/prep/2 shoe/NN/pobj/4	30	1939,1	1940,1	1941,1	1943,3	1947,4	1949,1	1953,1	1954,3	1955,1	1962,1	1965,1	1974,1	1975,1	1978,1	1979,1	1980,3	1982,2	1996,1	1998,1	2004,1
+scuffed	steve/NNP/nsubj/2 scuffed/VBD/ROOT/0 into/IN/prep/2 puffs/NNS/pobj/3 with/IN/prep/2 shoe/NN/pobj/5	30	1939,1	1940,1	1941,1	1943,3	1947,4	1949,1	1953,1	1954,3	1955,1	1962,1	1965,1	1974,1	1975,1	1978,1	1979,1	1980,3	1982,2	1996,1	1998,1	2004,1
+scuffed	steve/NNP/nsubj/2 scuffed/VBD/ROOT/0 with/IN/prep/2 worn/JJ/amod/5 shoe/NN/pobj/3	30	1939,1	1940,1	1941,1	1943,3	1947,4	1949,1	1953,1	1954,3	1955,1	1962,1	1965,1	1974,1	1975,1	1978,1	1979,1	1980,3	1982,2	1996,1	1998,1	2004,1
+scuffed	that/WDT/ref/2 scuffed/VBD/rcmod/0 sidewalk/NN/dobj/2 with/IN/prep/2 bracelets/NNS/pobj/4	49	1970,2	1972,1	1974,4	1975,1	1977,2	1978,1	1981,2	1982,1	1985,3	1987,1	1990,2	1992,1	1993,3	1994,4	1996,2	1997,1	1999,3	2001,2	2002,1	2003,1	2004,3	2005,5	2006,1	2007,2
+scuffed	that/WDT/ref/2 scuffed/VBD/rcmod/0 with/IN/prep/2 bracelets/NNS/pobj/3 jingling/VBG/partmod/4	49	1970,2	1972,1	1974,4	1975,1	1977,2	1978,1	1981,2	1982,1	1985,3	1987,1	1990,2	1992,1	1993,3	1994,4	1996,2	1997,1	1999,3	2001,2	2002,1	2003,1	2004,3	2005,5	2006,1	2007,2
+scuffed	that/WDT/ref/2 scuffed/VBD/rcmod/0 with/IN/prep/2 charm/NN/nn/5 bracelets/NNS/pobj/3	49	1970,2	1972,1	1974,4	1975,1	1977,2	1978,1	1981,2	1982,1	1985,3	1987,1	1990,2	1992,1	1993,3	1994,4	1996,2	1997,1	1999,3	2001,2	2002,1	2003,1	2004,3	2005,5	2006,1	2007,2
+scuffed	that/WDT/ref/3 always/RB/advmod/3 scuffed/VBD/rcmod/0 with/IN/prep/3 bracelets/NNS/pobj/4	49	1970,2	1972,1	1974,4	1975,1	1977,2	1978,1	1981,2	1982,1	1985,3	1987,1	1990,2	1992,1	1993,3	1994,4	1996,2	1997,1	1999,3	2001,2	2002,1	2003,1	2004,3	2005,5	2006,1	2007,2
+scuffed	thin/JJ/amod/2 shoes/NNS/nsubj/3 scuffed/VBN/ROOT/0 with/IN/prep/3 break/NN/pobj/4	12	1922,4	1923,2	1932,1	1956,4	2005,1
+scuffing	struck/VBD/ccomp/4 with/IN/prep/1 heels/NNS/pobj/2 scuffing/VBG/ROOT/0 along/RB/advmod/4	10	1892,5	1900,1	1906,2	1939,2
+scuffing	struck/VBD/ccomp/5 forcibly/RB/advmod/1 with/IN/prep/1 heels/NNS/pobj/3 scuffing/VBG/ROOT/0	10	1892,5	1900,1	1906,2	1939,2
+scuffing	we/PRP/nsubj/2 struck/VBD/ccomp/5 with/IN/prep/2 heels/NNS/pobj/3 scuffing/VBG/ROOT/0	10	1892,5	1900,1	1906,2	1939,2
+scuffing	when/WRB/compl/2 struck/VBD/ccomp/5 with/IN/prep/2 heels/NNS/pobj/3 scuffing/VBG/ROOT/0	10	1892,5	1900,1	1906,2	1939,2
+scuffle	bargees/NNS/nsubj/2 scuffle/NN/ROOT/0 with/IN/prep/2 hobnailed/JJ/amod/5 shoes/NNS/pobj/3	19	1903,1	1947,3	1974,1	1981,1	2007,2	2008,11
+scuffle	bargees/NNS/nsubj/2 scuffle/NN/ROOT/0 with/IN/prep/2 shoes/NNS/pobj/3 and/CC/cc/2 go/VB/conj/2	21	1858,1	1903,1	1947,3	1974,1	1981,1	2004,1	2007,2	2008,11
+scuffle	bargees/NNS/nsubj/2 scuffle/NN/ROOT/0 with/IN/prep/2 shoes/NNS/pobj/3 through/IN/prep/2 passages/NNS/pobj/5	21	1858,1	1903,1	1947,3	1974,1	1981,1	2004,1	2007,2	2008,11
+scuffle	bargees/NNS/nsubj/3 not/RB/dep/3 scuffle/NN/ROOT/0 with/IN/prep/3 shoes/NNS/pobj/4	20	1858,1	1903,1	1947,3	1974,1	1981,1	2004,1	2007,2	2008,10
+scuffle	bargees/NNS/nsubj/3 unfrequently/JJ/amod/3 scuffle/NN/ROOT/0 with/IN/prep/3 shoes/NNS/pobj/4	20	1858,1	1903,1	1947,3	1974,1	1981,1	2004,1	2007,2	2008,10
+scuffle	desperate/JJ/amod/2 scuffle/NN/pobj/0 with/IN/prep/2 french/JJ/amod/5 hussars/NNS/pobj/3	13	1903,3	1904,1	1905,4	1908,1	1913,1	1915,2	1917,1
+scuffle	furious/JJ/amod/2 scuffle/NN/ROOT/0 with/IN/prep/2 french/JJ/amod/5 guards/NNS/pobj/3	30	1865,1	1866,2	1867,1	1881,4	1898,5	1899,1	1901,1	1903,1	2003,1	2004,1	2007,3	2008,9
+scuffle	hand/JJ/dep/2 hand/JJ/dep/3 scuffle/NN/conj/0 with/IN/prep/3 life/NN/pobj/4	20	1915,3	1916,2	1920,1	1997,1	2004,2	2007,1	2008,10
+scuffle	hand/JJ/dep/2 scuffle/NN/conj/0 with/IN/prep/2 life/NN/pobj/3 in/IN/prep/4 gutters/NNS/pobj/5	20	1915,3	1916,2	1920,1	1997,1	2004,2	2007,1	2008,10
+scuffle	hazing/NN/nn/2 scuffle/NN/pobj/0 with/IN/prep/2 pelican/NN/pobj/3 from/IN/prep/4 districts/NNS/pobj/5	12	1886,1	1891,2	1968,2	2004,1	2006,1	2007,2	2008,3
+scuffle	little/JJ/amod/2 scuffle/NN/pobj/0 with/IN/prep/2 pelican/NN/pobj/3 from/IN/prep/4 districts/NNS/pobj/5	12	1886,1	1891,2	1968,2	2004,1	2006,1	2007,2	2008,3
+scuffle	little/JJ/amod/3 hazing/NN/nn/3 scuffle/NN/pobj/0 with/IN/prep/3 pelican/NN/pobj/4	12	1886,1	1891,2	1968,2	2004,1	2006,1	2007,2	2008,3
+scuffle	lively/JJ/amod/2 scuffle/NN/dobj/0 on/IN/prep/2 staircase/NN/pobj/3 with/IN/prep/2 page/NN/pobj/5	20	1949,1	1950,1	1963,2	2003,1	2004,3	2006,2	2007,4	2008,6
+scuffle	lively/JJ/amod/2 scuffle/NN/dobj/0 with/IN/prep/2 dissipated/JJ/amod/5 page/NN/pobj/3	21	1926,1	1949,1	1950,1	1963,2	2003,1	2004,3	2006,2	2007,4	2008,6
+scuffle	lively/JJ/amod/2 scuffle/NN/dobj/0 with/IN/prep/2 page/NN/pobj/3 waited/VBN/rcmod/4	21	1926,1	1949,1	1950,1	1963,2	2003,1	2004,3	2006,2	2007,4	2008,6
+scuffle	not/RB/dep/2 scuffle/NN/ROOT/0 with/IN/prep/2 hobnailed/JJ/amod/5 shoes/NNS/pobj/3	18	1903,1	1947,3	1974,1	1981,1	2007,2	2008,10
+scuffle	not/RB/dep/2 scuffle/NN/ROOT/0 with/IN/prep/2 shoes/NNS/pobj/3 and/CC/cc/2 go/VB/conj/2	20	1858,1	1903,1	1947,3	1974,1	1981,1	2004,1	2007,2	2008,10
+scuffle	not/RB/dep/2 scuffle/NN/ROOT/0 with/IN/prep/2 shoes/NNS/pobj/3 through/IN/prep/2 passages/NNS/pobj/5	20	1858,1	1903,1	1947,3	1974,1	1981,1	2004,1	2007,2	2008,10
+scuffle	not/RB/dep/3 unfrequently/JJ/amod/3 scuffle/NN/ROOT/0 with/IN/prep/3 shoes/NNS/pobj/4	20	1858,1	1903,1	1947,3	1974,1	1981,1	2004,1	2007,2	2008,10
+scuffle	orderlies/NNS/nsubj/2 scuffle/VBP/ROOT/0 with/IN/prep/2 espontaneo/NN/pobj/3 ejected/VBN/rcmod/4	13	1959,1	1963,6	1987,1	1990,1	1992,2	2000,2
+scuffle	overlord/NN/nsubj/2 scuffle/VB/ROOT/0 with/IN/prep/2 bachelors/NNS/pobj/3 and/CC/cc/2 worsted/VBN/conj/2	10	1932,3	1938,3	1950,1	1999,3
+scuffle	overlord/NN/nsubj/2 scuffle/VB/ROOT/0 with/IN/prep/2 bachelors/NNS/pobj/3 for/IN/prep/2 possession/NN/pobj/5	10	1932,3	1938,3	1950,1	1999,3
+scuffle	poetess/NN/nsubj/4 but/CC/cc/1 with/IN/conj/1 scuffle/VB/ROOT/0 and/CC/cc/4 close/VB/conj/4	13	1911,3	1962,5	1971,4	2005,1
+scuffle	poetess/NN/nsubj/4 but/CC/cc/1 with/IN/conj/1 scuffle/VB/ROOT/0 into/IN/prep/4 house/NN/pobj/5	13	1911,3	1962,5	1971,4	2005,1
+scuffle	poetess/NN/nsubj/5 but/CC/cc/1 with/IN/conj/1 looks/NNS/pobj/3 scuffle/VB/ROOT/0	13	1911,3	1962,5	1971,4	2005,1
+scuffle	poetess/NN/nsubj/6 without/IN/prep/1 answering/VBG/pcomp/2 but/CC/cc/1 with/IN/conj/1 scuffle/VB/ROOT/0	13	1911,3	1962,5	1971,4	2005,1
+scuffle	preliminary/JJ/amod/2 scuffle/NN/pobj/0 with/IN/prep/2 countryman/NN/pobj/3 in/IN/prep/4 boots/NNS/pobj/5	19	1901,1	1905,1	1927,1	1929,1	1959,1	2004,1	2005,1	2007,2	2008,10
+scuffle	preliminary/JJ/amod/2 scuffle/NN/pobj/0 with/IN/prep/2 drunken/JJ/amod/5 countryman/NN/pobj/3	20	1901,1	1905,1	1927,1	1929,1	1959,1	2004,1	2005,1	2007,2	2008,11
+scuffle	rude/NN/nsubj/2 scuffle/VB/ccomp/0 with/IN/prep/2 ease/NN/pobj/3 enough/RB/advmod/4	38	1800,2	1806,1	1808,1	1811,1	1814,2	1825,1	1830,1	1834,1	1854,1	1876,2	1880,1	1898,1	1901,2	1924,2	1925,1	1928,1	1959,5	1968,1	1972,1	1984,1	1994,1	2003,1	2004,1	2005,1	2006,1	2007,1	2008,3
+scuffle	scuffle/NN/ROOT/0 with/IN/prep/1 hobnailed/JJ/amod/4 shoes/NNS/pobj/2 and/CC/cc/1 go/VB/conj/1	19	1903,1	1947,3	1974,1	1981,1	2007,2	2008,11
+scuffle	scuffle/NN/ROOT/0 with/IN/prep/1 hobnailed/JJ/amod/4 shoes/NNS/pobj/2 through/IN/prep/1 passages/NNS/pobj/5	19	1903,1	1947,3	1974,1	1981,1	2007,2	2008,11
+scuffle	scuffle/NN/ROOT/0 with/IN/prep/1 shoes/NNS/pobj/2 and/CC/cc/1 go/VB/conj/1 in/IN/advmod/5	21	1858,1	1903,1	1947,3	1974,1	1981,1	2004,1	2007,2	2008,11
+scuffle	scuffle/NN/ROOT/0 with/IN/prep/1 shoes/NNS/pobj/2 and/CC/cc/1 go/VB/conj/1 leaving/VBG/xcomp/5	21	1858,1	1903,1	1947,3	1974,1	1981,1	2004,1	2007,2	2008,11
+scuffle	scuffle/NN/ROOT/0 with/IN/prep/1 shoes/NNS/pobj/2 through/IN/prep/1 passages/NNS/pobj/4 and/CC/cc/1 go/VB/conj/1	21	1858,1	1903,1	1947,3	1974,1	1981,1	2004,1	2007,2	2008,11
+scuffle	scuffle/NN/conj/0 with/IN/prep/1 life/NN/pobj/2 in/IN/prep/3 multiopolis/NNP/nn/6 gutters/NNS/pobj/4	21	1915,3	1916,2	1920,1	1997,1	2004,2	2007,1	2008,11
+scuffle	scuffle/NN/dobj/0 either/CC/dep/3 with/IN/dep/1 natives/NNS/pobj/3	14	1895,3	1900,1	1903,2	1904,8
+scuffle	scuffle/NN/dobj/0 on/IN/prep/1 staircase/NN/pobj/2 with/IN/prep/1 dissipated/JJ/amod/6 page/NN/pobj/4	20	1949,1	1950,1	1963,2	2003,1	2004,3	2006,2	2007,4	2008,6
+scuffle	scuffle/NN/dobj/0 on/IN/prep/1 staircase/NN/pobj/2 with/IN/prep/1 page/NN/pobj/4 waited/VBN/rcmod/5	20	1949,1	1950,1	1963,2	2003,1	2004,3	2006,2	2007,4	2008,6
+scuffle	scuffle/NN/dobj/0 with/IN/dep/1 natives/NNS/pobj/2 or/CC/cc/3 enemies/NNS/conj/3	14	1895,3	1900,1	1903,2	1904,8
+scuffle	scuffle/NN/dobj/0 with/IN/prep/1 dissipated/JJ/amod/4 page/NN/pobj/2 waited/VBN/rcmod/4	21	1926,1	1949,1	1950,1	1963,2	2003,1	2004,3	2006,2	2007,4	2008,6
+scuffle	scuffle/NN/dobj/0 with/IN/prep/1 gordon/NNP/pobj/2 in/IN/prep/1 streets/NNS/pobj/4 of/IN/prep/5 edinburgh/NNP/pobj/6	16	1817,1	1818,1	1820,2	1821,1	1825,3	1826,1	1827,1	1828,1	1835,2	1840,1	1851,1	1857,1
+scuffle	scuffle/NN/dobj/0 with/IN/prep/1 john/NNP/nn/4 gordon/NNP/pobj/2 in/IN/prep/1 streets/NNS/pobj/5	18	1811,1	1813,1	1817,1	1818,1	1820,2	1821,1	1825,3	1826,1	1827,1	1828,1	1835,2	1840,1	1851,1	1857,1
+scuffle	scuffle/NN/dobj/0 with/IN/prep/1 magyar/JJ/pobj/2 ex/NN/dep/5 prisoners/NNS/dep/3	17	1918,4	1920,1	1923,4	1931,1	1949,1	2004,1	2006,1	2007,2	2008,2
+scuffle	scuffle/NN/dobj/0 with/IN/prep/1 page/NN/pobj/2 waited/VBN/rcmod/3 and/CC/cc/4 who/WP/conj/4	20	1949,1	1950,1	1963,2	2003,1	2004,3	2006,2	2007,4	2008,6
+scuffle	scuffle/NN/dobj/0 with/IN/prep/1 page/NN/pobj/2 waited/VBN/rcmod/3 at/IN/prep/4 dinner/NN/pobj/5	21	1926,1	1949,1	1950,1	1963,2	2003,1	2004,3	2006,2	2007,4	2008,6
+scuffle	scuffle/NN/dobj/0 with/IN/prep/1 page/NN/pobj/2 who/WP/ref/5 waited/VBN/rcmod/3	21	1926,1	1949,1	1950,1	1963,2	2003,1	2004,3	2006,2	2007,4	2008,6
+scuffle	scuffle/NN/dobj/0 with/IN/prep/1 sir/NNP/nn/4 gordon/NNP/pobj/2 in/IN/prep/1 streets/NNS/pobj/5	12	1813,1	1817,1	1818,1	1820,2	1821,1	1826,1	1827,1	1835,1	1840,1	1851,1	1857,1
+scuffle	scuffle/NN/dobj/0 with/IN/prep/1 sir/NNP/nn/5 john/NNP/nn/5 gordon/NNP/pobj/2	14	1813,2	1817,1	1818,1	1820,2	1821,1	1824,1	1826,1	1827,1	1835,1	1840,1	1851,1	1857,1
+scuffle	scuffle/NN/pobj/0 bruised/VBN/rcmod/1 with/IN/prep/2 fists/NNS/pobj/3 and/CC/cc/4 sticks/NNS/conj/4	11	1961,2	1983,1	1990,2	2004,3	2006,3
+scuffle	scuffle/NN/pobj/0 came/VBD/ccomp/1 to/TO/prep/2 aid/NN/pobj/3 with/IN/prep/2 bellows/NN/pobj/5	11	1867,2	1891,2	1892,1	1896,2	1900,1	1901,1	1905,1	1907,1
+scuffle	scuffle/NN/pobj/0 for/IN/prep/1 rifles/NNS/pobj/2 stabbed/VBD/rcmod/3 with/IN/prep/4 knife/NN/pobj/5	20	1893,4	1901,4	1904,1	1927,1	1965,1	2001,1	2003,1	2004,2	2007,2	2008,3
+scuffle	scuffle/NN/pobj/0 had/VBD/rcmod/1 with/IN/prep/2 them/PRP/pobj/3 both/DT/dep/4	26	1822,1	1854,1	1880,6	1881,1	1884,1	1892,1	1902,3	1906,2	1908,3	1909,1	1946,2	1979,1	2006,1	2008,2
+scuffle	scuffle/NN/pobj/0 he/PRP/nsubj/3 had/VBD/rcmod/1 with/IN/prep/3 them/PRP/pobj/4	26	1822,1	1854,1	1880,6	1881,1	1884,1	1892,1	1902,3	1906,2	1908,3	1909,1	1946,2	1979,1	2006,1	2008,2
+scuffle	scuffle/NN/pobj/0 he/PRP/nsubj/3 had/VBN/rcmod/1 with/IN/prep/3 sailors/NNS/pobj/4	18	1908,2	1919,1	1922,1	1930,1	1937,1	2004,2	2006,5	2007,2	2008,3
+scuffle	scuffle/NN/pobj/0 he/PRP/nsubj/3 had/VBN/rcmod/1 with/IN/prep/3 tramp/NN/pobj/4	17	1917,2	1927,1	1931,1	1933,1	1945,1	1950,1	1955,3	2005,1	2007,1	2008,5
+scuffle	scuffle/NN/pobj/0 heads/NNS/nsubjpass/3 bruised/VBN/rcmod/1 with/IN/prep/3 fists/NNS/pobj/4	11	1961,2	1983,1	1990,2	2004,3	2006,3
+scuffle	scuffle/NN/pobj/0 in/IN/prep/1 kitchen/NN/pobj/2 came/VBD/ccomp/1 with/IN/prep/4 bellows/NN/pobj/5	11	1867,2	1891,2	1892,1	1896,2	1900,1	1901,1	1905,1	1907,1
+scuffle	scuffle/NN/pobj/0 in/IN/ref/3 bruised/VBN/rcmod/1 with/IN/prep/3 fists/NNS/pobj/4	11	1961,2	1983,1	1990,2	2004,3	2006,3
+scuffle	scuffle/NN/pobj/0 of/IN/prep/1 feet/NNS/pobj/2 strewn/VBN/partmod/3 with/IN/prep/4 straw/NN/pobj/5	10	1948,3	1958,1	1960,4	1997,1	2000,1
+scuffle	scuffle/NN/pobj/0 of/IN/prep/1 his/PRP$/pobj/2 with/IN/prep/1 drunken/JJ/amod/6 guest/NN/pobj/4	41	1868,2	1883,10	1896,6	1900,4	1910,5	1970,1	1972,1	1982,3	1991,1	1997,1	2005,1	2006,1	2007,1	2008,4
+scuffle	scuffle/NN/pobj/0 sweetheart/NN/nsubj/3 came/VBD/ccomp/1 with/IN/prep/3 bellows/NN/pobj/4	11	1867,2	1891,2	1892,1	1896,2	1900,1	1901,1	1905,1	1907,1
+scuffle	scuffle/NN/pobj/0 when/WRB/compl/3 came/VBD/ccomp/1 with/IN/prep/3 bellows/NN/pobj/4	11	1867,2	1891,2	1892,1	1896,2	1900,1	1901,1	1905,1	1907,1
+scuffle	scuffle/NN/pobj/0 which/WDT/ref/3 had/VBN/rcmod/1 with/IN/prep/3 sailors/NNS/pobj/4	18	1908,2	1919,1	1922,1	1930,1	1937,1	2004,2	2006,5	2007,2	2008,3
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 commonwealth/NN/nn/4 soldier/NN/pobj/2 lee/NNP/appos/4	34	1826,7	1829,3	1832,4	1833,1	1834,2	1836,1	1842,1	1852,1	1854,1	1855,1	1858,1	1860,1	1863,1	1876,1	1879,1	1890,1	2004,1	2006,1	2007,2	2008,2
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 commonwealth/NN/nn/4 soldier/NN/pobj/2 with/IN/prep/4 daughter/NN/pobj/5	34	1826,7	1829,3	1832,4	1833,1	1834,2	1836,1	1842,1	1852,1	1854,1	1855,1	1858,1	1860,1	1863,1	1876,1	1879,1	1890,1	2004,1	2006,1	2007,2	2008,2
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 countryman/NN/pobj/2 in/IN/prep/3 caked/JJ/dep/6 boots/NNS/pobj/4	19	1901,1	1905,1	1927,1	1929,1	1959,1	2004,1	2005,1	2007,2	2008,10
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 dog/NN/pobj/2 at/IN/prep/3 outer/JJ/amod/6 door/NN/pobj/4	47	1913,2	1914,6	1921,3	1922,1	1923,2	1925,2	1926,4	1927,1	1928,1	1946,1	1949,1	1993,1	1995,2	2001,3	2002,1	2004,1	2007,5	2008,10
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 drunken/JJ/amod/4 countryman/NN/pobj/2 in/IN/prep/4 boots/NNS/pobj/5	19	1901,1	1905,1	1927,1	1929,1	1959,1	2004,1	2005,1	2007,2	2008,10
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 graig/NNP/nn/4 nettles/NNP/pobj/2 and/CC/cc/4 rivers/NNP/conj/4	10	2001,10
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 man/NN/pobj/2 considered/VBD/rcmod/3 as/IN/prep/4 monomaniac/NN/pobj/5	11	1862,2	1879,1	1896,4	1910,1	1967,1	2001,2
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 man/NN/pobj/2 he/PRP/nsubj/5 considered/VBD/rcmod/3	11	1862,2	1879,1	1896,4	1910,1	1967,1	2001,2
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 man/NN/pobj/2 whom/WP/ref/5 considered/VBD/rcmod/3	11	1862,2	1879,1	1896,4	1910,1	1967,1	2001,2
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 miners/NNS/pobj/2 as/IN/advmod/5 drunken/JJ/amod/3	15	1908,1	1910,5	1912,4	1916,1	2006,1	2007,2	2008,1
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 miners/NNS/pobj/2 drunken/JJ/amod/3 as/IN/prep/4 himself/PRP/pobj/5	14	1908,1	1910,5	1912,4	2006,1	2007,2	2008,1
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 nettles/NNP/pobj/2 and/CC/cc/3 mickey/NNP/nn/6 rivers/NNP/conj/3	10	2001,10
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 pelican/NN/pobj/2 from/IN/prep/3 rural/JJ/amod/6 districts/NNS/pobj/4	12	1886,1	1891,2	1968,2	2004,1	2006,1	2007,2	2008,3
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 soldier/NN/pobj/2 henry/NNP/nn/5 lee/NNP/appos/3	41	1826,7	1829,3	1832,4	1833,1	1834,2	1836,1	1842,1	1852,1	1854,1	1855,1	1858,1	1860,1	1863,1	1871,3	1876,1	1877,1	1879,1	1887,1	1890,1	1894,2	2004,1	2006,1	2007,2	2008,2
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 soldier/NN/pobj/2 lee/NNP/appos/3 with/IN/prep/3 daughter/NN/pobj/5	41	1826,7	1829,3	1832,4	1833,1	1834,2	1836,1	1842,1	1852,1	1854,1	1855,1	1858,1	1860,1	1863,1	1871,3	1876,1	1877,1	1879,1	1887,1	1890,1	1894,2	2004,1	2006,1	2007,2	2008,2
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 soldier/NN/pobj/2 sir/NNP/nn/5 lee/NNP/appos/3	41	1826,7	1829,3	1832,4	1833,1	1834,2	1836,1	1842,1	1852,1	1854,1	1855,1	1858,1	1860,1	1863,1	1871,3	1876,1	1877,1	1879,1	1887,1	1890,1	1894,2	2004,1	2006,1	2007,2	2008,2
+scuffle	scuffle/NN/pobj/0 with/IN/prep/1 soldier/NN/pobj/2 with/IN/prep/3 daughter/NN/pobj/4 alice/NNP/dep/5	41	1826,7	1829,3	1832,4	1833,1	1834,2	1836,1	1842,1	1852,1	1854,1	1855,1	1858,1	1860,1	1863,1	1871,3	1876,1	1877,1	1879,1	1887,1	1890,1	1894,2	2004,1	2006,1	2007,2	2008,2
+scuffle	scuffle/NNP/dep/0 are/VBP/dep/1 and/CC/cc/2 with/IN/prep/6 results/NNS/pobj/4 see/VB/conj/2	14	1939,4	1942,3	1945,2	1947,2	1993,1	2007,2
+scuffle	scuffle/VB/ROOT/0 with/IN/prep/1 bachelors/NNS/pobj/2 for/IN/prep/1 possession/NN/pobj/4 and/CC/cc/1 worsted/VBN/conj/1	10	1932,3	1938,3	1950,1	1999,3
+scuffle	scuffle/VB/ROOT/0 with/IN/prep/1 bachelors/NNS/pobj/2 for/IN/prep/1 possession/NN/pobj/4 of/IN/prep/5 fruit/NN/pobj/6	10	1932,3	1938,3	1950,1	1999,3
+scuffle	scuffle/VB/xcomp/0 with/IN/prep/1 awkward/JJ/amod/4 squads/NNS/pobj/2 for/IN/prep/4 more/RBR/pobj/5	12	1863,3	1868,1	1871,1	1873,1	1878,2	1967,3	2008,1
+scuffle	scuffle/VB/xcomp/0 with/IN/prep/1 awkward/JJ/amod/4 squads/NNS/pobj/2 of/IN/prep/4 waiters/NNS/pobj/5	12	1863,3	1868,1	1871,1	1873,1	1878,2	1967,3	2008,1
+scuffle	scuffle/VB/xcomp/0 with/IN/prep/1 squads/NNS/pobj/2 for/IN/prep/3 fare/NN/nn/6 more/RBR/pobj/4	12	1863,3	1868,1	1871,1	1873,1	1878,2	1967,3	2008,1
+scuffle	scuffle/VB/xcomp/0 with/IN/prep/1 squads/NNS/pobj/2 for/IN/prep/3 more/RBR/pobj/4 or/CC/cc/5 less/JJR/conj/5	12	1863,3	1868,1	1871,1	1873,1	1878,2	1967,3	2008,1
+scuffle	scuffle/VB/xcomp/0 with/IN/prep/1 squads/NNS/pobj/2 for/IN/prep/3 more/RBR/pobj/4 tolerable/NN/dep/5	12	1863,3	1868,1	1871,1	1873,1	1878,2	1967,3	2008,1
+scuffle	scuffle/VB/xcomp/0 with/IN/prep/1 squads/NNS/pobj/2 of/IN/prep/3 waiters/NNS/pobj/4 for/IN/prep/3 more/RBR/pobj/6	12	1863,3	1868,1	1871,1	1873,1	1878,2	1967,3	2008,1
+scuffle	scuffle/VB/xcomp/0 with/IN/prep/1 toes/NNS/pobj/2 in/IN/prep/3 dead/JJ/amod/6 leaves/NNS/pobj/4	12	1882,1	1886,2	1895,1	1899,1	1909,1	2007,4	2008,2
+scuffle	scuffle/VB/xcomp/0 with/IN/prep/1 you/PRP/pobj/2 in/IN/prep/1 raging/VBG/amod/6 fury/NN/pobj/4	18	1872,1	1880,1	1892,3	1903,1	1904,3	1928,1	1929,1	1931,2	1933,1	1949,2	1955,1	2004,1
+scuffle	scuffle/VBP/ROOT/0 with/IN/prep/1 espontaneo/NN/pobj/2 ejected/VBN/rcmod/3 from/IN/prep/4 hall/NN/pobj/5	12	1959,1	1963,5	1987,1	1990,1	1992,2	2000,2
+scuffle	scuffle/VBP/ROOT/0 with/IN/prep/1 espontaneo/NN/pobj/2 finally/RB/advmod/5 ejected/VBN/rcmod/3	13	1959,1	1963,6	1987,1	1990,1	1992,2	2000,2
+scuffle	scuffle/VBP/ROOT/0 with/IN/prep/1 espontaneo/NN/pobj/2 who/WP/ref/5 ejected/VBN/rcmod/3	13	1959,1	1963,6	1987,1	1990,1	1992,2	2000,2
+scuffle	serious/JJ/amod/2 scuffle/NN/dobj/0 with/IN/prep/2 magyar/JJ/pobj/3 prisoners/NNS/dep/4	17	1918,4	1920,1	1923,4	1931,1	1949,1	2004,1	2006,1	2007,2	2008,2
+scuffle	she/PRP/nsubj/2 scuffle/VB/conj/0 with/IN/prep/2 them/PRP/pobj/3 for/IN/prep/2 it/PRP/pobj/5	15	1831,3	1860,2	1884,1	1903,1	1904,1	1909,1	1919,3	1991,1	2007,2
+scuffle	short/JJ/amod/2 scuffle/NN/pobj/0 with/IN/prep/2 dog/NN/pobj/3 at/IN/prep/4 door/NN/pobj/5	47	1913,2	1914,6	1921,3	1922,1	1923,2	1925,2	1926,4	1927,1	1928,1	1946,1	1949,1	1993,1	1995,2	2001,3	2002,1	2004,1	2007,5	2008,10
+scuffle	short/JJ/amod/4 but/CC/cc/1 severe/JJ/conj/1 scuffle/NN/pobj/0 with/IN/prep/4 dog/NN/pobj/5	47	1913,2	1914,6	1921,3	1922,1	1923,2	1925,2	1926,4	1927,1	1928,1	1946,1	1949,1	1993,1	1995,2	2001,3	2002,1	2004,1	2007,5	2008,10
+scuffle	to/JJ/dep/2 hand/JJ/dep/3 scuffle/NN/conj/0 with/IN/prep/3 life/NN/pobj/4	20	1915,3	1916,2	1920,1	1997,1	2004,2	2007,1	2008,10
+scuffle	unfrequently/JJ/amod/2 scuffle/NN/ROOT/0 with/IN/prep/2 hobnailed/JJ/amod/5 shoes/NNS/pobj/3	18	1903,1	1947,3	1974,1	1981,1	2007,2	2008,10
+scuffle	unfrequently/JJ/amod/2 scuffle/NN/ROOT/0 with/IN/prep/2 shoes/NNS/pobj/3 and/CC/cc/2 go/VB/conj/2	20	1858,1	1903,1	1947,3	1974,1	1981,1	2004,1	2007,2	2008,10
+scuffle	unfrequently/JJ/amod/2 scuffle/NN/ROOT/0 with/IN/prep/2 shoes/NNS/pobj/3 through/IN/prep/2 passages/NNS/pobj/5	20	1858,1	1903,1	1947,3	1974,1	1981,1	2004,1	2007,2	2008,10
+scuffled	almost/RB/advmod/2 scuffled/VBN/ROOT/0 with/IN/prep/2 heavy/JJ/amod/5 secretary/NN/pobj/3	17	1997,8	1998,8	2006,1
+scuffled	almost/RB/advmod/2 scuffled/VBN/ROOT/0 with/IN/prep/2 secretary/NN/pobj/3 insisted/VBD/rcmod/4	17	1997,8	1998,8	2006,1
+scuffled	begins/VBZ/advcl/2 scuffled/VBN/ROOT/0 or/CC/cc/2 cleaned/VBN/conj/2 with/IN/prep/4 hoe/NN/pobj/5	11	1859,2	1860,3	1866,5	1867,1
+scuffled	boys/NNS/nsubj/2 scuffled/VBD/ROOT/0 together/RB/advmod/2 with/IN/prep/2 hails/NNS/pobj/4	11	1922,4	2004,1	2007,3	2008,3
+scuffled	boys/NNS/nsubj/2 scuffled/VBD/ROOT/0 with/IN/prep/2 subdued/JJ/dep/5 hails/NNS/pobj/3	11	1922,4	2004,1	2007,3	2008,3
+scuffled	i/PRP/nsubj/2 scuffled/VBD/ccomp/0 with/IN/prep/2 down/IN/dep/3	19	1917,3	1927,1	1931,1	1933,2	1945,1	1950,1	1955,3	2005,1	2007,1	2008,5
+scuffled	i/PRP/nsubj/2 scuffled/VBD/ccomp/0 with/IN/prep/2 night/NN/tmod/2	19	1917,3	1927,1	1931,1	1933,2	1945,1	1950,1	1955,3	2005,1	2007,1	2008,5
+scuffled	it/PRP/nsubj/2 scuffled/VBD/rcmod/0 harmlessly/RB/advmod/2 with/IN/prep/2	24	1909,3	1951,2	1956,1	1959,1	1968,3	1970,1	1977,2	1993,2	1994,1	2004,1	2007,3	2008,4
+scuffled	it/PRP/nsubj/2 scuffled/VBD/rcmod/0 with/IN/prep/2 dozen/NN/dep/3	24	1909,3	1951,2	1956,1	1959,1	1968,3	1970,1	1977,2	1993,2	1994,1	2004,1	2007,3	2008,4
+scuffled	older/JJR/amod/2 boys/NNS/nsubj/3 scuffled/VBD/ROOT/0 with/IN/prep/3 hails/NNS/pobj/4	11	1922,4	2004,1	2007,3	2008,3
+scuffled	rows/NNS/nsubjpass/2 scuffled/VBN/ROOT/0 or/CC/cc/2 cleaned/VBN/conj/2 with/IN/prep/4 hoe/NN/pobj/5	10	1859,2	1860,3	1866,4	1867,1
+scuffled	scuffled/VBD/ROOT/0 and/CC/cc/1 waded/VBD/conj/1 groping/VBG/xcomp/3 with/IN/prep/4 hands/NNS/pobj/5	34	1901,5	1903,1	1913,1	1928,5	1930,1	1938,2	1948,1	1949,1	1953,1	1959,1	1964,1	1984,1	1986,2	2000,1	2004,3	2007,3	2008,4
+scuffled	scuffled/VBD/ROOT/0 but/CC/cc/1 with/IN/conj/1 grimness/NN/pobj/3 got/VBN/ccomp/4	13	1927,2	1939,2	1949,1	1953,2	1958,1	1960,1	1962,1	1964,1	1979,1	2005,1
+scuffled	scuffled/VBD/ROOT/0 but/CC/cc/1 with/IN/conj/1 grimness/NN/pobj/3 of/IN/prep/4 men/NNS/pobj/5	13	1927,2	1939,2	1949,1	1953,2	1958,1	1960,1	1962,1	1964,1	1979,1	2005,1
+scuffled	scuffled/VBD/ROOT/0 like/IN/prep/1 boys/NNS/pobj/2 but/CC/cc/1 with/IN/conj/1 grimness/NN/pobj/5	13	1927,2	1939,2	1949,1	1953,2	1958,1	1960,1	1962,1	1964,1	1979,1	2005,1
+scuffled	scuffled/VBD/ROOT/0 like/IN/prep/1 small/JJ/amod/4 boys/NNS/pobj/2 but/CC/cc/1 with/IN/conj/1	13	1927,2	1939,2	1949,1	1953,2	1958,1	1960,1	1962,1	1964,1	1979,1	2005,1
+scuffled	scuffled/VBD/ROOT/0 to/TO/prep/1 market/NN/pobj/2 with/IN/prep/1 pesos/NNS/pobj/4 bought/VBD/conj/1	10	1926,1	1935,2	1944,1	1948,1	1950,1	1954,1	1955,1	1959,1	2006,1
+scuffled	scuffled/VBD/ROOT/0 together/RB/advmod/1 with/IN/prep/1 subdued/JJ/dep/5 hails/NNS/pobj/3	11	1922,4	2004,1	2007,3	2008,3
+scuffled	scuffled/VBD/ROOT/0 with/IN/prep/1 half/JJ/dep/4 subdued/JJ/dep/5 hails/NNS/pobj/2	11	1922,4	2004,1	2007,3	2008,3
+scuffled	scuffled/VBD/ROOT/0 with/IN/prep/1 pesos/NNS/pobj/2 bought/VBD/conj/1 at/IN/prep/4 centavos/NNS/pobj/5	10	1926,1	1935,2	1944,1	1948,1	1950,1	1954,1	1955,1	1959,1	2006,1
+scuffled	scuffled/VBD/ROOT/0 with/IN/prep/1 pesos/NNS/pobj/2 bought/VBD/conj/1 morning/NN/tmod/4	10	1926,1	1935,2	1944,1	1948,1	1950,1	1954,1	1955,1	1959,1	2006,1
+scuffled	scuffled/VBD/ROOT/0 with/IN/prep/1 pesos/NNS/pobj/2 bought/VBD/conj/1 things/NNS/dobj/4	10	1926,1	1935,2	1944,1	1948,1	1950,1	1954,1	1955,1	1959,1	2006,1
+scuffled	scuffled/VBD/ccomp/0 with/IN/prep/1 down/IN/dep/2 lane/JJ/pobj/3	19	1917,3	1927,1	1931,1	1933,2	1945,1	1950,1	1955,3	2005,1	2007,1	2008,5
+scuffled	scuffled/VBD/ccomp/0 with/IN/prep/1 down/IN/dep/2 night/NN/tmod/1	19	1917,3	1927,1	1931,1	1933,2	1945,1	1950,1	1955,3	2005,1	2007,1	2008,5
+scuffled	scuffled/VBD/ccomp/0 with/IN/prep/1 last/JJ/amod/4 night/NN/tmod/1	19	1917,3	1927,1	1931,1	1933,2	1945,1	1950,1	1955,3	2005,1	2007,1	2008,5
+scuffled	scuffled/VBD/conj/0 along/IN/prep/1 brick/NN/nn/4 pavements/NNS/pobj/2 with/IN/prep/4 walk/NN/pobj/5	11	1867,1	1870,1	1978,2	1989,1	2004,1	2006,1	2007,1	2008,3
+scuffled	scuffled/VBD/conj/0 along/IN/prep/1 pavements/NNS/pobj/2 with/IN/prep/3 country/NN/nn/6 walk/NN/pobj/4	11	1867,1	1870,1	1978,2	1989,1	2004,1	2006,1	2007,1	2008,3
+scuffled	scuffled/VBD/conj/0 along/IN/prep/1 pavements/NNS/pobj/2 with/IN/prep/3 uncouth/JJ/amod/6 walk/NN/pobj/4	11	1867,1	1870,1	1978,2	1989,1	2004,1	2006,1	2007,1	2008,3
+scuffled	scuffled/VBD/conj/0 around/RB/advmod/1 with/IN/prep/1 feet/NNS/pobj/3 little/JJ/dep/4	16	1936,6	1937,5	1939,2	1946,1	1996,2
+scuffled	scuffled/VBD/conj/0 with/IN/prep/1 feet/NNS/pobj/2 a/DT/dep/5 little/JJ/dep/3	16	1936,6	1937,5	1939,2	1946,1	1996,2
+scuffled	scuffled/VBD/conj/0 with/IN/prep/1 people/NNS/pobj/2 doomed/VBN/partmod/3 die/VB/xcomp/4	10	1958,3	1981,1	1988,6
+scuffled	scuffled/VBD/rcmod/0 harmlessly/RB/advmod/1 with/IN/prep/1 dozen/NN/dep/3	24	1909,3	1951,2	1956,1	1959,1	1968,3	1970,1	1977,2	1993,2	1994,1	2004,1	2007,3	2008,4
+scuffled	scuffled/VBD/rcmod/0 with/IN/prep/1 a/JJ/dep/4 dozen/NN/dep/2	24	1909,3	1951,2	1956,1	1959,1	1968,3	1970,1	1977,2	1993,2	1994,1	2004,1	2007,3	2008,4
+scuffled	scuffled/VBD/rcmod/0 with/IN/prep/1 dozen/NN/dep/2 of/IN/prep/3 soldiers/NNS/pobj/4	24	1909,3	1951,2	1956,1	1959,1	1968,3	1970,1	1977,2	1993,2	1994,1	2004,1	2007,3	2008,4
+scuffled	scuffled/VBD/rcmod/0 with/IN/prep/1 half/JJ/dep/4 dozen/NN/dep/2	24	1909,3	1951,2	1956,1	1959,1	1968,3	1970,1	1977,2	1993,2	1994,1	2004,1	2007,3	2008,4
+scuffled	scuffled/VBN/ROOT/0 or/CC/cc/1 cleaned/VBN/conj/1 with/IN/prep/3 hoe/NN/pobj/4 or/CC/cc/5 cultivator/NN/conj/5	11	1859,2	1860,3	1866,5	1867,1
+scuffled	scuffled/VBN/ROOT/0 or/CC/cc/1 cleaned/VBN/conj/1 with/IN/prep/3 horse/NN/dep/6 hoe/NN/pobj/4	11	1859,2	1860,3	1866,5	1867,1
+scuffled	scuffled/VBN/ROOT/0 with/IN/prep/1 heavy/JJ/amod/4 secretary/NN/pobj/2 insisted/VBD/rcmod/4	17	1997,8	1998,8	2006,1
+scuffled	scuffled/VBN/ROOT/0 with/IN/prep/1 secretary/NN/pobj/2 insisted/VBD/rcmod/3 was/VBD/ccomp/4	17	1997,8	1998,8	2006,1
+scuffled	scuffled/VBN/ROOT/0 with/IN/prep/1 secretary/NN/pobj/2 who/WP/ref/5 insisted/VBD/rcmod/3	17	1997,8	1998,8	2006,1
+scuffled	she/PRP/nsubj/2 scuffled/VBD/ROOT/0 to/TO/prep/2 market/NN/pobj/3 with/IN/prep/2 pesos/NNS/pobj/5	10	1926,1	1935,2	1944,1	1948,1	1950,1	1954,1	1955,1	1959,1	2006,1
+scuffled	she/PRP/nsubj/2 scuffled/VBD/ROOT/0 with/IN/prep/2 pesos/NNS/pobj/3 bought/VBD/conj/2	10	1926,1	1935,2	1944,1	1948,1	1950,1	1954,1	1955,1	1959,1	2006,1
+scuffled	they/PRP/nsubj/2 scuffled/VBD/ROOT/0 but/CC/cc/2 with/IN/conj/2 grimness/NN/pobj/4	13	1927,2	1939,2	1949,1	1953,2	1958,1	1960,1	1962,1	1964,1	1979,1	2005,1
+scuffled	they/PRP/nsubj/2 scuffled/VBD/ROOT/0 like/IN/prep/2 boys/NNS/pobj/3 but/CC/cc/2 with/IN/conj/2	13	1927,2	1939,2	1949,1	1953,2	1958,1	1960,1	1962,1	1964,1	1979,1	2005,1
+scuffled	they/PRP/nsubj/2 scuffled/VBN/ROOT/0 with/IN/prep/2 heavy/JJ/amod/5 secretary/NN/pobj/3	17	1997,8	1998,8	2006,1
+scuffled	they/PRP/nsubj/2 scuffled/VBN/ROOT/0 with/IN/prep/2 secretary/NN/pobj/3 insisted/VBD/rcmod/4	17	1997,8	1998,8	2006,1
+scuffled	they/PRP/nsubj/3 almost/RB/advmod/3 scuffled/VBN/ROOT/0 with/IN/prep/3 secretary/NN/pobj/4	17	1997,8	1998,8	2006,1
+scuffled	where/WRB/ref/2 scuffled/VBD/rcmod/0 harmlessly/RB/advmod/2 with/IN/prep/2	24	1909,3	1951,2	1956,1	1959,1	1968,3	1970,1	1977,2	1993,2	1994,1	2004,1	2007,3	2008,4
+scuffled	where/WRB/ref/2 scuffled/VBD/rcmod/0 with/IN/prep/2 dozen/NN/dep/3	24	1909,3	1951,2	1956,1	1959,1	1968,3	1970,1	1977,2	1993,2	1994,1	2004,1	2007,3	2008,4
+scuffled	where/WRB/ref/3 it/PRP/nsubj/3 scuffled/VBD/rcmod/0 with/IN/prep/3	24	1909,3	1951,2	1956,1	1959,1	1968,3	1970,1	1977,2	1993,2	1994,1	2004,1	2007,3	2008,4
+scuffled	with/IN/prep/3 sailor/NN/pobj/1 scuffled/VBD/ROOT/0 and/CC/cc/3 cowered/VBD/conj/3 by/IN/prep/5 starts/NNS/pobj/6	27	1903,1	1921,1	1922,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffled	with/IN/prep/3 sailor/NN/pobj/1 scuffled/VBD/ROOT/0 and/CC/cc/3 cowered/VBD/conj/3 tied/VBN/advcl/5	27	1903,1	1921,1	1922,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffled	with/IN/prep/3 sailor/NN/pobj/1 scuffled/VBD/ROOT/0 violently/RB/advmod/3 and/CC/cc/3 cowered/VBD/conj/3	27	1903,1	1921,1	1922,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffled	with/IN/prep/3 trowel/NN/pobj/1 scuffled/VBD/ROOT/0 earth/NN/dobj/3 from/IN/prep/3	13	1914,1	1919,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/3 trowel/NN/pobj/1 scuffled/VBD/ROOT/0 earth/NN/dobj/3 taking/VBG/dep/3	12	1914,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/3 trowel/NN/pobj/1 scuffled/VBD/ROOT/0 from/IN/prep/3 taking/VBG/dep/3	12	1914,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/3 trowel/NN/pobj/1 scuffled/VBD/ROOT/0 from/IN/prep/3 under/IN/dep/4	13	1914,1	1919,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/3 trowel/NN/pobj/1 scuffled/VBD/ROOT/0 taking/VBG/dep/3 and/CC/cc/4 making/VBG/conj/4	12	1914,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/3 trowel/NN/pobj/1 scuffled/VBD/ROOT/0 taking/VBG/dep/3 care/NN/dobj/4	12	1914,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/3 trowel/NN/pobj/1 scuffled/VBD/ROOT/0 taking/VBG/dep/3 raise/VB/xcomp/4	12	1914,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/4 immovable/JJ/amod/3 sailor/NN/pobj/1 scuffled/VBD/ROOT/0 and/CC/cc/4 cowered/VBD/conj/4	27	1903,1	1921,1	1922,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffled	with/IN/prep/4 immovable/JJ/amod/3 sailor/NN/pobj/1 scuffled/VBD/ROOT/0 violently/RB/advmod/4	27	1903,1	1921,1	1922,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffled	with/IN/prep/4 sailor/NN/pobj/1 he/PRP/nsubj/4 scuffled/VBD/ROOT/0 and/CC/cc/4 cowered/VBD/conj/4	27	1903,1	1921,1	1922,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffled	with/IN/prep/4 sailor/NN/pobj/1 he/PRP/nsubj/4 scuffled/VBD/ROOT/0 violently/RB/advmod/4	27	1903,1	1921,1	1922,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffled	with/IN/prep/4 short/JJ/amod/3 trowel/NN/pobj/1 scuffled/VBD/ROOT/0 earth/NN/dobj/4	13	1914,1	1919,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/4 short/JJ/amod/3 trowel/NN/pobj/1 scuffled/VBD/ROOT/0 from/IN/prep/4	13	1914,1	1919,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/4 short/JJ/amod/3 trowel/NN/pobj/1 scuffled/VBD/ROOT/0 taking/VBG/dep/4	12	1914,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/4 trowel/NN/pobj/1 leader/NN/nsubj/4 scuffled/VBD/ROOT/0 earth/NN/dobj/4	13	1914,1	1919,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/4 trowel/NN/pobj/1 leader/NN/nsubj/4 scuffled/VBD/ROOT/0 from/IN/prep/4	13	1914,1	1919,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/4 trowel/NN/pobj/1 leader/NN/nsubj/4 scuffled/VBD/ROOT/0 taking/VBG/dep/4	12	1914,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/5 immovable/JJ/amod/3 sailor/NN/pobj/1 he/PRP/nsubj/5 scuffled/VBD/ROOT/0	27	1903,1	1921,1	1922,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffled	with/IN/prep/5 sailor/NN/pobj/1 on/IN/prep/2 side/NN/pobj/3 scuffled/VBD/ROOT/0 and/CC/cc/5 cowered/VBD/conj/5	27	1903,1	1921,1	1922,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffled	with/IN/prep/5 sailor/NN/pobj/1 on/IN/prep/2 side/NN/pobj/3 scuffled/VBD/ROOT/0 violently/RB/advmod/5	27	1903,1	1921,1	1922,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffled	with/IN/prep/5 short/JJ/amod/3 trowel/NN/pobj/1 leader/NN/nsubj/5 scuffled/VBD/ROOT/0	13	1914,1	1919,1	1920,1	1923,5	2004,1	2005,1	2006,2	2007,1
+scuffled	with/IN/prep/5 trowel/NN/pobj/1 file/NN/nn/4 leader/NN/nsubj/5 scuffled/VBD/ROOT/0	12	1914,1	1919,1	1920,1	1923,5	2004,1	2005,1	2006,1	2007,1
+scuffled	with/IN/prep/6 immovable/JJ/amod/3 sailor/NN/pobj/1 on/IN/prep/3 side/NN/pobj/4 scuffled/VBD/ROOT/0	27	1903,1	1921,1	1922,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffled	with/IN/prep/6 sailor/NN/pobj/1 on/IN/prep/2 side/NN/pobj/3 he/PRP/nsubj/6 scuffled/VBD/ROOT/0	27	1903,1	1921,1	1922,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scufflers	scufflers/NNS/attr/0 those/DT/dep/1 taken/VBN/rcmod/2 with/IN/prep/3 books/NNS/pobj/4	10	1888,2	1899,3	1902,1	1925,1	1927,1	1929,1	2008,1
+scuffles	frank/NNP/nsubj/2 scuffles/VBZ/ROOT/0 back/RB/advmod/2 with/IN/prep/2 message/NN/pobj/4	17	1957,1	1960,1	1962,1	1988,2	1997,1	2004,2	2005,2	2006,2	2007,1	2008,4
+scuffles	frank/NNP/nsubj/2 scuffles/VBZ/ROOT/0 with/IN/prep/2 message/NN/pobj/3 and/CC/cc/2 says/VBZ/conj/2	10	1957,1	1960,1	1962,1	1988,2	1997,1	2005,2	2006,2
+scuffles	frank/NNP/nsubj/2 scuffles/VBZ/ROOT/0 with/IN/prep/2 message/NN/pobj/3 got/VBD/ccomp/2	10	1957,1	1960,1	1962,1	1988,2	1997,1	2005,2	2006,2
+scuffles	scuffles/VBZ/ROOT/0 back/RB/advmod/1 with/IN/prep/1 message/NN/pobj/3 and/CC/cc/1 says/VBZ/conj/1	10	1957,1	1960,1	1962,1	1988,2	1997,1	2005,2	2006,2
+scuffles	scuffles/VBZ/ROOT/0 back/RB/advmod/1 with/IN/prep/1 message/NN/pobj/3 got/VBD/ccomp/1	10	1957,1	1960,1	1962,1	1988,2	1997,1	2005,2	2006,2
+scuffles	scuffles/VBZ/ROOT/0 with/IN/prep/1 message/NN/pobj/2 and/CC/cc/1 says/VBZ/conj/1 is/VBZ/ccomp/5	10	1957,1	1960,1	1962,1	1988,2	1997,1	2005,2	2006,2
+scuffles	scuffles/VBZ/ROOT/0 with/IN/prep/1 message/NN/pobj/2 got/VBD/ccomp/1 and/CC/cc/1 says/VBZ/conj/1	10	1957,1	1960,1	1962,1	1988,2	1997,1	2005,2	2006,2
+scuffles	scuffles/VBZ/ROOT/0 with/IN/prep/1 message/NN/pobj/2 got/VBD/ccomp/1 none/NN/dobj/4	10	1957,1	1960,1	1962,1	1988,2	1997,1	2005,2	2006,2
+scuffles	scuffles/VBZ/ROOT/0 with/IN/prep/1 message/NN/pobj/2 peppercorn/NNP/nsubjpass/5 got/VBD/ccomp/1	10	1957,1	1960,1	1962,1	1988,2	1997,1	2005,2	2006,2
+scuffles	then/RB/advmod/2 scuffles/VBZ/ROOT/0 back/RB/advmod/2 with/IN/prep/2 message/NN/pobj/4	17	1957,1	1960,1	1962,1	1988,2	1997,1	2004,2	2005,2	2006,2	2007,1	2008,4
+scuffles	then/RB/advmod/2 scuffles/VBZ/ROOT/0 with/IN/prep/2 message/NN/pobj/3 and/CC/cc/2 says/VBZ/conj/2	10	1957,1	1960,1	1962,1	1988,2	1997,1	2005,2	2006,2
+scuffles	then/RB/advmod/2 scuffles/VBZ/ROOT/0 with/IN/prep/2 message/NN/pobj/3 got/VBD/ccomp/2	10	1957,1	1960,1	1962,1	1988,2	1997,1	2005,2	2006,2
+scuffles	then/RB/advmod/3 frank/NNP/nsubj/3 scuffles/VBZ/ROOT/0 with/IN/prep/3 message/NN/pobj/4	17	1957,1	1960,1	1962,1	1988,2	1997,1	2004,2	2005,2	2006,2	2007,1	2008,4
+scuffling	abnormal/JJ/amod/2 scuffling/NN/nsubj/0 intermingled/VBN/partmod/2 with/IN/prep/3 snatches/NNS/pobj/4	26	1903,1	1921,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffling	amorously/RB/advmod/2 scuffling/VBG/partmod/0 with/IN/prep/2 admirer/NN/pobj/3 through/IN/prep/2 one/CD/pobj/5	14	1871,1	1872,1	1875,1	1884,1	1893,1	1906,2	1907,1	1911,1	2004,1	2007,1	2008,3
+scuffling	before/RB/advmod/2 scuffling/VBG/rcmod/0 with/IN/prep/2 enemy/NN/pobj/3 from/IN/prep/4 cellar/NN/pobj/5	14	1893,6	1898,2	2004,1	2006,2	2007,1	2008,2
+scuffling	boys/NNS/nsubj/2 scuffling/VBG/advcl/0 with/IN/prep/2 officer/NN/pobj/3 and/CC/cc/4 some/DT/conj/4	10	1915,1	2004,1	2005,2	2007,3	2008,3
+scuffling	california/NNP/nsubj/2 scuffling/VBG/dep/0 with/IN/prep/2 salmon/NN/pobj/3 and/CC/cc/2 swearing/VBG/conj/2	54	1899,16	1900,8	1907,2	1909,2	1912,1	1913,1	1917,1	1920,1	1921,1	1922,1	1925,2	1927,1	1930,1	1934,1	1937,4	1969,1	1974,1	2000,1	2003,1	2007,2	2008,5
+scuffling	for/IN/prep/3 all/DT/pobj/1 scuffling/VBG/ROOT/0 in/IN/prep/3 there/RB/pobj/4 with/IN/prep/3 spirit/NN/pobj/6	29	1915,2	1921,6	1923,2	1924,1	1925,2	1926,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	for/IN/prep/3 all/DT/pobj/1 scuffling/VBG/ROOT/0 with/IN/prep/3 evil/JJ/amod/6 spirit/NN/pobj/4	29	1915,2	1921,6	1923,2	1924,1	1925,2	1926,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	for/IN/prep/3 all/DT/pobj/1 scuffling/VBG/ROOT/0 with/IN/prep/3 spirit/NN/pobj/4 had/VBD/rcmod/5	29	1915,2	1921,6	1923,2	1924,1	1925,2	1926,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	for/IN/prep/4 all/DT/pobj/1 knew/VBD/rcmod/2 scuffling/VBG/ROOT/0 with/IN/prep/4 spirit/NN/pobj/5	29	1915,2	1921,6	1923,2	1924,1	1925,2	1926,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	for/IN/prep/4 all/DT/pobj/1 woman/NN/nsubj/4 scuffling/VBG/ROOT/0 with/IN/prep/4 spirit/NN/pobj/5	29	1915,2	1921,6	1923,2	1924,1	1925,2	1926,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	four/CD/num/2 men/NNS/nsubj/3 scuffling/VBG/rcmod/0 with/IN/prep/3 sheriff/NN/pobj/4	20	1918,3	1925,3	1947,1	1956,4	1962,4	1970,2	1974,1	2003,1	2005,1
+scuffling	he/PRP/nsubj/2 scuffling/VBG/ROOT/0 with/IN/prep/2 minister/NN/pobj/3 and/CC/cc/2 was/VBD/conj/2	18	1899,1	1900,1	1909,2	1912,1	1913,3	1916,1	1926,1	1930,1	1936,1	1937,1	1987,1	2007,1	2008,3
+scuffling	he/PRP/nsubj/2 scuffling/VBG/ROOT/0 with/IN/prep/2 minister/NN/pobj/3 and/CC/cc/4 general/JJ/conj/4	13	1900,1	1909,2	1912,1	1913,3	1936,1	1987,1	2007,1	2008,3
+scuffling	he/PRP/nsubj/2 scuffling/VBG/ROOT/0 with/IN/prep/2 minister/NNP/pobj/3 and/CC/cc/2 was/VBD/conj/2	31	1897,3	1898,1	1899,3	1911,1	1914,1	1920,1	1921,1	1925,2	1931,1	1937,4	1948,1	2007,3	2008,9
+scuffling	he/PRP/nsubj/2 scuffling/VBG/ROOT/0 with/IN/prep/2 minister/NNP/pobj/3 and/CC/cc/4 general/NNP/conj/4	24	1897,3	1898,1	1899,3	1911,1	1920,1	1925,1	1931,1	1937,4	1948,1	2007,2	2008,6
+scuffling	he/PRP/nsubj/2 scuffling/VBG/ROOT/0 with/IN/prep/2 prime/JJ/amod/5 minister/NN/pobj/3	18	1899,1	1900,1	1909,2	1912,1	1913,3	1916,1	1926,1	1930,1	1936,1	1937,1	1987,1	2007,1	2008,3
+scuffling	he/PRP/nsubj/2 scuffling/VBG/ROOT/0 with/IN/prep/2 prime/NNP/nn/5 minister/NNP/pobj/3	31	1897,3	1898,1	1899,3	1911,1	1914,1	1920,1	1921,1	1925,2	1931,1	1937,4	1948,1	2007,3	2008,9
+scuffling	him/PRP/nsubj/2 scuffling/VBG/dep/0 playfully/RB/advmod/2 with/IN/prep/2 mag/NN/pobj/4	12	1958,3	1966,1	1980,1	1987,1	1988,2	1989,2	1995,1	2006,1
+scuffling	him/PRP/nsubj/2 scuffling/VBG/dep/0 with/IN/prep/2 hideous/JJ/amod/5 mag/NN/pobj/3	12	1958,3	1966,1	1980,1	1987,1	1988,2	1989,2	1995,1	2006,1
+scuffling	him/PRP/nsubj/2 scuffling/VBG/dep/0 with/IN/prep/2 old/JJ/amod/5 mag/NN/pobj/3	12	1958,3	1966,1	1980,1	1987,1	1988,2	1989,2	1995,1	2006,1
+scuffling	just/RB/advmod/2 before/RB/advmod/3 scuffling/VBG/rcmod/0 with/IN/prep/3 enemy/NN/pobj/4	14	1893,6	1898,2	2004,1	2006,2	2007,1	2008,2
+scuffling	men/NNS/nsubj/2 scuffling/VBG/ROOT/0 with/IN/prep/2 third/JJ/pobj/3 seemed/VBD/rcmod/4	19	1890,2	1952,6	1960,2	1971,1	2003,1	2004,1	2006,1	2007,2	2008,3
+scuffling	much/JJ/amod/2 scuffling/NN/pobj/0 and/CC/cc/2 laying/VBG/conj/2 with/IN/prep/4 fists/NNS/pobj/5	16	1914,7	1924,2	1925,1	1976,1	2006,1	2008,4
+scuffling	outside/IN/advmod/2 scuffling/VBG/ROOT/0 with/IN/prep/2 police/NN/pobj/3 spraying/VBG/rcmod/4	10	1976,2	1995,1	1996,5	2007,2
+scuffling	outside/IN/advmod/3 students/NNS/nsubj/3 scuffling/VBG/ROOT/0 with/IN/prep/3 police/NN/pobj/4	13	1976,2	1982,3	1995,1	1996,5	2007,2
+scuffling	perhaps/RB/advmod/2 scuffling/VBG/rcmod/0 with/IN/prep/2 enemy/NN/pobj/3 from/IN/prep/4 cellar/NN/pobj/5	14	1893,6	1898,2	2004,1	2006,2	2007,1	2008,2
+scuffling	perhaps/RB/advmod/3 before/RB/advmod/3 scuffling/VBG/rcmod/0 with/IN/prep/3 enemy/NN/pobj/4	14	1893,6	1898,2	2004,1	2006,2	2007,1	2008,2
+scuffling	porters/NNS/nsubj/2 scuffling/VBG/dep/0 with/IN/prep/2 other/JJ/pobj/3 for/IN/prep/2 possession/NN/pobj/5	11	1856,1	1986,1	2000,1	2004,1	2005,1	2006,1	2007,1	2008,4
+scuffling	rough/JJ/amod/2 scuffling/NN/pobj/0 and/CC/cc/2 laying/VBG/conj/2 with/IN/prep/4 fists/NNS/pobj/5	16	1914,7	1924,2	1925,1	1976,1	2006,1	2008,4
+scuffling	scuffling/NN/conj/0 of/IN/prep/1 men/NNS/pobj/2 with/IN/prep/3 heavy/JJ/amod/6 shoes/NNS/pobj/4	10	1922,4	2007,3	2008,3
+scuffling	scuffling/NN/conj/0 of/IN/prep/1 men/NNS/pobj/2 with/IN/prep/3 hobnailed/JJ/amod/6 shoes/NNS/pobj/4	10	1922,4	2007,3	2008,3
+scuffling	scuffling/NN/dobj/0 mingled/VBN/partmod/1 with/IN/prep/2 raging/VBG/pcomp/3 and/CC/cc/4 gasping/VBG/conj/4	15	1907,1	2004,1	2007,4	2008,9
+scuffling	scuffling/NN/nsubj/0 intermingled/VBN/partmod/1 with/IN/prep/2 snatches/NNS/pobj/3 of/IN/prep/4 remonstrance/NN/pobj/5	26	1903,1	1921,1	1923,3	1925,6	1926,2	1927,1	1938,1	1946,1	1949,2	1995,1	2004,1	2006,1	2007,3	2008,2
+scuffling	scuffling/NN/pobj/0 and/CC/cc/1 laying/VBG/conj/1 about/IN/prep/3 us/PRP/pobj/4 with/IN/prep/3 fists/NNS/pobj/6	16	1914,7	1924,2	1925,1	1976,1	2006,1	2008,4
+scuffling	scuffling/VBG/ROOT/0 and/CC/cc/1 fetched/VBD/conj/1 one/CD/dobj/3 with/IN/prep/4 headboard/NN/pobj/5	65	1899,2	1901,1	1903,7	1917,5	1920,2	1922,2	1924,1	1930,1	1931,1	1934,1	1935,2	1936,1	1940,1	1943,2	1946,1	1950,1	1959,1	1961,1	1962,1	1964,1	1977,1	1978,1	1986,2	1987,1	1989,1	1997,1	1998,1	1999,1	2000,2	2001,1	2003,1	2004,1	2006,1	2007,1	2008,14
+scuffling	scuffling/VBG/ROOT/0 in/IN/prep/1 there/RB/pobj/2 with/IN/prep/1 evil/JJ/amod/6 spirit/NN/pobj/4	31	1915,2	1921,6	1923,3	1924,1	1925,2	1926,1	1928,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	scuffling/VBG/ROOT/0 in/IN/prep/1 there/RB/pobj/2 with/IN/prep/1 spirit/NN/pobj/4 had/VBD/rcmod/5	31	1915,2	1921,6	1923,3	1924,1	1925,2	1926,1	1928,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 evil/JJ/amod/4 spirit/NN/pobj/2 had/VBD/rcmod/4	31	1915,2	1921,6	1923,3	1924,1	1925,2	1926,1	1928,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 minister/NN/pobj/2 and/CC/cc/1 he/PRP/nsubj/6 was/VBD/conj/1	18	1899,1	1900,1	1909,2	1912,1	1913,3	1916,1	1926,1	1930,1	1936,1	1937,1	1987,1	2007,1	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 minister/NN/pobj/2 and/CC/cc/1 was/VBD/conj/1 gift/NN/attr/5	18	1899,1	1900,1	1909,2	1912,1	1913,3	1916,1	1926,1	1930,1	1936,1	1937,1	1987,1	2007,1	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 minister/NN/pobj/2 and/CC/cc/3 director/NN/dep/6 general/JJ/conj/3	13	1900,1	1909,2	1912,1	1913,3	1936,1	1987,1	2007,1	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 minister/NN/pobj/2 and/CC/cc/3 general/JJ/conj/3 and/CC/cc/1 was/VBD/conj/1	13	1900,1	1909,2	1912,1	1913,3	1936,1	1987,1	2007,1	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 minister/NN/pobj/2 and/CC/cc/3 general/JJ/conj/3 of/IN/prep/5 education/NN/pobj/6	13	1900,1	1909,2	1912,1	1913,3	1936,1	1987,1	2007,1	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 minister/NNP/pobj/2 and/CC/cc/1 he/PRP/nsubj/6 was/VBD/conj/1	31	1897,3	1898,1	1899,3	1911,1	1914,1	1920,1	1921,1	1925,2	1931,1	1937,4	1948,1	2007,3	2008,9
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 minister/NNP/pobj/2 and/CC/cc/1 was/VBD/conj/1 gift/NN/attr/5	31	1897,3	1898,1	1899,3	1911,1	1914,1	1920,1	1921,1	1925,2	1931,1	1937,4	1948,1	2007,3	2008,9
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 minister/NNP/pobj/2 and/CC/cc/3 director/NNP/dep/6 general/NNP/conj/3	23	1897,3	1898,1	1899,3	1911,1	1920,1	1925,1	1931,1	1937,4	2007,2	2008,6
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 minister/NNP/pobj/2 and/CC/cc/3 general/NNP/conj/3 and/CC/cc/1 was/VBD/conj/1	24	1897,3	1898,1	1899,3	1911,1	1920,1	1925,1	1931,1	1937,4	1948,1	2007,2	2008,6
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 minister/NNP/pobj/2 and/CC/cc/3 general/NNP/conj/3 of/IN/prep/5 education/NNP/pobj/6	24	1897,3	1898,1	1899,3	1911,1	1920,1	1925,1	1931,1	1937,4	1948,1	2007,2	2008,6
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 police/NN/pobj/2 spraying/VBG/rcmod/3 all/DT/dep/6 over/IN/prep/4	10	1976,2	1995,1	1996,5	2007,2
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 police/NN/pobj/2 spraying/VBG/rcmod/3 gas/NN/dobj/4	10	1976,2	1995,1	1996,5	2007,2
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 police/NN/pobj/2 spraying/VBG/rcmod/3 over/IN/prep/4 campus/NN/pobj/5	10	1976,2	1995,1	1996,5	2007,2
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 police/NN/pobj/2 who/WP/ref/5 spraying/VBG/rcmod/3	10	1976,2	1995,1	1996,5	2007,2
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 prime/JJ/amod/4 minister/NN/pobj/2 and/CC/cc/1 was/VBD/conj/1	18	1899,1	1900,1	1909,2	1912,1	1913,3	1916,1	1926,1	1930,1	1936,1	1937,1	1987,1	2007,1	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 prime/JJ/amod/4 minister/NN/pobj/2 and/CC/cc/4 general/JJ/conj/4	13	1900,1	1909,2	1912,1	1913,3	1936,1	1987,1	2007,1	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 prime/NNP/nn/4 minister/NNP/pobj/2 and/CC/cc/1 was/VBD/conj/1	31	1897,3	1898,1	1899,3	1911,1	1914,1	1920,1	1921,1	1925,2	1931,1	1937,4	1948,1	2007,3	2008,9
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 prime/NNP/nn/4 minister/NNP/pobj/2 and/CC/cc/4 general/NNP/conj/4	24	1897,3	1898,1	1899,3	1911,1	1920,1	1925,1	1931,1	1937,4	1948,1	2007,2	2008,6
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 spirit/NN/pobj/2 had/VBD/rcmod/3 killed/VBD/prep/4	30	1915,2	1921,6	1923,2	1924,1	1925,2	1926,1	1928,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 spirit/NN/pobj/2 had/VBD/rcmod/3 of/IN/prep/4 course/NN/pobj/5	31	1915,2	1921,6	1923,3	1924,1	1925,2	1926,1	1928,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 spirit/NN/pobj/2 which/WDT/ref/5 had/VBD/rcmod/3	31	1915,2	1921,6	1923,3	1924,1	1925,2	1926,1	1928,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 third/JJ/pobj/2 seemed/VBD/rcmod/3 trying/VBG/xcomp/4	19	1890,2	1952,6	1960,2	1971,1	2003,1	2004,1	2006,1	2007,2	2008,3
+scuffling	scuffling/VBG/ROOT/0 with/IN/prep/1 third/JJ/pobj/2 who/WP/ref/5 seemed/VBD/rcmod/3	19	1890,2	1952,6	1960,2	1971,1	2003,1	2004,1	2006,1	2007,2	2008,3
+scuffling	scuffling/VBG/advcl/0 with/IN/prep/1 officer/NN/pobj/2 and/CC/cc/3 some/DT/conj/3 of/IN/prep/5 sailors/NNS/pobj/6	10	1915,1	2004,1	2005,2	2007,3	2008,3
+scuffling	scuffling/VBG/conj/0 with/IN/prep/1 every/DT/dep/4 one/CD/pobj/2 about/IN/prep/4 us/PRP/pobj/5	85	1812,1	1821,2	1822,1	1824,4	1825,4	1826,5	1827,3	1830,4	1831,11	1832,1	1833,3	1839,1	1840,2	1849,2	1854,7	1858,1	1859,1	1860,1	1862,1	1865,2	1872,1	1876,2	1880,1	1881,1	1883,1	1892,1	1916,1	1926,1	1966,1	1968,2	1984,2	2000,2	2005,1	2006,3	2007,3	2008,5
+scuffling	scuffling/VBG/dep/0 playfully/RB/advmod/1 with/IN/prep/1 hideous/JJ/amod/5 mag/NN/pobj/3	12	1958,3	1966,1	1980,1	1987,1	1988,2	1989,2	1995,1	2006,1
+scuffling	scuffling/VBG/dep/0 playfully/RB/advmod/1 with/IN/prep/1 old/JJ/amod/5 mag/NN/pobj/3	12	1958,3	1966,1	1980,1	1987,1	1988,2	1989,2	1995,1	2006,1
+scuffling	scuffling/VBG/dep/0 with/IN/prep/1 guards/NNS/pobj/2 doing/VBG/rcmod/3 best/JJS/dobj/4	15	1901,1	1904,1	2005,1	2006,1	2008,11
+scuffling	scuffling/VBG/dep/0 with/IN/prep/1 guards/NNS/pobj/2 doing/VBG/rcmod/3 hold/VB/xcomp/4	15	1901,1	1904,1	2005,1	2006,1	2008,11
+scuffling	scuffling/VBG/dep/0 with/IN/prep/1 guards/NNS/pobj/2 who/WP/ref/5 doing/VBG/rcmod/3	15	1901,1	1904,1	2005,1	2006,1	2008,11
+scuffling	scuffling/VBG/dep/0 with/IN/prep/1 hideous/JJ/amod/5 old/JJ/amod/5 mag/NN/pobj/2	12	1958,3	1966,1	1980,1	1987,1	1988,2	1989,2	1995,1	2006,1
+scuffling	scuffling/VBG/dep/0 with/IN/prep/1 other/JJ/pobj/2 for/IN/prep/1 possession/NN/pobj/4 of/IN/prep/5 portmanteaus/NNS/pobj/6	10	1856,1	2000,1	2004,1	2005,1	2006,1	2007,1	2008,4
+scuffling	scuffling/VBG/dep/0 with/IN/prep/1 salmon/NN/pobj/2 and/CC/cc/1 swearing/VBG/conj/1 oaths/NNS/dobj/5	54	1899,16	1900,8	1907,2	1909,2	1912,1	1913,1	1917,1	1920,1	1921,1	1922,1	1925,2	1927,1	1930,1	1934,1	1937,4	1969,1	1974,1	2000,1	2003,1	2007,2	2008,5
+scuffling	scuffling/VBG/partmod/0 falling/VBG/dep/1 with/IN/prep/2 clatter/NN/pobj/3 and/CC/cc/4 loss/NN/conj/4	10	1949,1	2004,3	2006,2	2007,1	2008,3
+scuffling	scuffling/VBG/partmod/0 falling/VBG/dep/1 with/IN/prep/2 great/JJ/amod/5 clatter/NN/pobj/3	10	1949,1	2004,3	2006,2	2007,1	2008,3
+scuffling	scuffling/VBG/partmod/0 together/RB/advmod/1 falling/VBG/dep/1 with/IN/prep/3 clatter/NN/pobj/4	10	1949,1	2004,3	2006,2	2007,1	2008,3
+scuffling	scuffling/VBG/partmod/0 upon/IN/prep/1 deck/NN/pobj/2 falling/VBG/dep/1 with/IN/prep/4 clatter/NN/pobj/5	10	1949,1	2004,3	2006,2	2007,1	2008,3
+scuffling	scuffling/VBG/partmod/0 with/IN/prep/1 admirer/NN/pobj/2 through/IN/prep/1 one/CD/pobj/4 of/IN/prep/5 windows/NNS/pobj/6	14	1871,1	1872,1	1875,1	1884,1	1893,1	1906,2	1907,1	1911,1	2004,1	2007,1	2008,3
+scuffling	scuffling/VBG/pobj/0 with/IN/prep/1 sea/NN/pobj/2 or/CC/cc/1 undisciplined/JJ/amod/6 rabble/NN/conj/1	20	1836,2	1845,5	1847,1	1848,5	1851,1	1853,1	1856,1	1881,1	1889,1	1933,2
+scuffling	scuffling/VBG/rcmod/0 with/IN/prep/1 enemy/NN/pobj/2 from/IN/prep/3 flower/JJ/dep/6 cellar/NN/pobj/4	14	1893,6	1898,2	2004,1	2006,2	2007,1	2008,2
+scuffling	scuffling/VBG/xcomp/0 dust/NN/dobj/1 with/IN/prep/1 bare/JJ/amod/5 feet/NNS/pobj/3	10	1942,3	1946,2	1962,2	1984,1	1987,1	1996,1
+scuffling	scuffling/VBG/xcomp/0 with/IN/prep/1 feet/NNS/pobj/2 and/CC/cc/1 blowing/VBG/conj/1 deal/NN/dobj/5	27	1850,1	1868,1	1869,4	1880,1	1882,1	1883,2	1891,1	1895,1	1901,1	1904,3	1907,1	1910,1	1915,1	1991,1	2008,7
+scuffling	scuffling/VBG/xcomp/0 with/IN/prep/1 feet/NNS/pobj/2 and/CC/cc/1 blowing/VBG/conj/1 during/IN/prep/5 service/NN/pobj/6	29	1850,1	1868,1	1869,4	1880,1	1882,1	1883,2	1891,1	1895,1	1896,1	1901,1	1904,3	1907,1	1910,1	1915,1	1991,1	2008,8
+scuffling	scuffling/VBG/xcomp/0 with/IN/prep/1 feet/NNS/pobj/2 and/CC/cc/1 blowing/VBG/conj/1 noses/NNS/dep/5	27	1850,1	1868,1	1869,4	1880,1	1882,1	1883,2	1891,1	1895,1	1901,1	1904,3	1907,1	1910,1	1915,1	1991,1	2008,7
+scuffling	scuffling/VBG/xcomp/0 with/IN/prep/1 feet/NNS/pobj/2 marched/VBD/advcl/1 and/CC/cc/1 blowing/VBG/conj/1	29	1850,1	1868,1	1869,4	1880,1	1882,1	1883,2	1891,1	1895,1	1896,1	1901,1	1904,3	1907,1	1910,1	1915,1	1991,1	2008,8
+scuffling	scuffling/VBG/xcomp/0 with/IN/prep/1 feet/NNS/pobj/2 marched/VBD/advcl/1 and/CC/cc/4 up/IN/conj/4	29	1850,1	1868,1	1869,4	1880,1	1882,1	1883,2	1891,1	1895,1	1896,1	1901,1	1904,3	1907,1	1910,1	1915,1	1991,1	2008,8
+scuffling	scuffling/VBG/xcomp/0 with/IN/prep/1 feet/NNS/pobj/2 marched/VBD/advcl/1 into/IN/prep/4 church/NN/pobj/5	32	1850,1	1868,1	1869,4	1879,2	1880,1	1882,1	1883,2	1891,1	1895,1	1896,1	1898,1	1901,1	1904,3	1907,1	1910,1	1915,1	1991,1	2008,8
+scuffling	scuffling/VBG/xcomp/0 with/IN/prep/1 feet/NNS/pobj/2 they/PRP/nsubj/5 marched/VBD/advcl/1	32	1850,1	1868,1	1869,4	1879,2	1880,1	1882,1	1883,2	1891,1	1895,1	1896,1	1898,1	1901,1	1904,3	1907,1	1910,1	1915,1	1991,1	2008,8
+scuffling	students/NNS/nsubj/2 scuffling/VBG/ROOT/0 with/IN/prep/2 police/NN/pobj/3 spraying/VBG/rcmod/4	10	1976,2	1995,1	1996,5	2007,2
+scuffling	tavernier/NNP/nsubj/2 scuffling/VBG/rcmod/0 with/IN/prep/2 same/JJ/amod/5 gendarmes/NNS/pobj/3	11	1896,1	1897,2	1902,4	1917,2	2008,2
+scuffling	them/PRP/nsubj/2 scuffling/VBG/dep/0 with/IN/prep/2 guards/NNS/pobj/3 doing/VBG/rcmod/4	15	1901,1	1904,1	2005,1	2006,1	2008,11
+scuffling	two/CD/num/2 men/NNS/nsubj/3 scuffling/VBG/ROOT/0 with/IN/prep/3 third/JJ/pobj/4	19	1890,2	1952,6	1960,2	1971,1	2003,1	2004,1	2006,1	2007,2	2008,3
+scuffling	where/WRB/ref/3 men/NNS/nsubj/3 scuffling/VBG/rcmod/0 with/IN/prep/3 sheriff/NN/pobj/4	20	1918,3	1925,3	1947,1	1956,4	1962,4	1970,2	1974,1	2003,1	2005,1
+scuffling	white/JJ/amod/2 woman/NN/nsubj/3 scuffling/VBG/ROOT/0 with/IN/prep/3 spirit/NN/pobj/4	31	1915,2	1921,6	1923,3	1924,1	1925,2	1926,1	1928,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	who/WP/ref/2 scuffling/VBG/rcmod/0 with/IN/prep/2 enemy/NN/pobj/3 from/IN/prep/4 cellar/NN/pobj/5	14	1893,6	1898,2	2004,1	2006,2	2007,1	2008,2
+scuffling	who/WP/ref/2 scuffling/VBG/rcmod/0 with/IN/prep/2 side/NN/pobj/3 of/IN/prep/4 pork/NN/pobj/5	14	1949,6	1963,3	1968,2	1984,3
+scuffling	who/WP/ref/3 before/RB/advmod/3 scuffling/VBG/rcmod/0 with/IN/prep/3 enemy/NN/pobj/4	14	1893,6	1898,2	2004,1	2006,2	2007,1	2008,2
+scuffling	who/WP/ref/3 perhaps/RB/advmod/3 scuffling/VBG/rcmod/0 with/IN/prep/3 enemy/NN/pobj/4	14	1893,6	1898,2	2004,1	2006,2	2007,1	2008,2
+scuffling	why/WRB/ref/2 scuffling/VBG/rcmod/0 with/IN/prep/2 same/JJ/amod/5 gendarmes/NNS/pobj/3	11	1896,1	1897,2	1902,4	1917,2	2008,2
+scuffling	why/WRB/ref/3 tavernier/NNP/nsubj/3 scuffling/VBG/rcmod/0 with/IN/prep/3 gendarmes/NNS/pobj/4	11	1896,1	1897,2	1902,4	1917,2	2008,2
+scuffling	with/IN/ref/4 whom/WP/pobj/1 he/PRP/nsubj/4 scuffling/VBG/rcmod/0	14	1912,1	1921,1	1966,1	1982,1	1985,2	2001,2	2004,1	2007,3	2008,2
+scuffling	woman/NN/nsubj/2 scuffling/VBG/ROOT/0 in/IN/prep/2 there/RB/pobj/3 with/IN/prep/2 spirit/NN/pobj/5	31	1915,2	1921,6	1923,3	1924,1	1925,2	1926,1	1928,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	woman/NN/nsubj/2 scuffling/VBG/ROOT/0 with/IN/prep/2 evil/JJ/amod/5 spirit/NN/pobj/3	31	1915,2	1921,6	1923,3	1924,1	1925,2	1926,1	1928,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
+scuffling	woman/NN/nsubj/2 scuffling/VBG/ROOT/0 with/IN/prep/2 spirit/NN/pobj/3 had/VBD/rcmod/4	31	1915,2	1921,6	1923,3	1924,1	1925,2	1926,1	1928,1	1931,1	1932,2	1948,1	1963,1	1995,2	1996,1	2004,2	2007,2	2008,3
