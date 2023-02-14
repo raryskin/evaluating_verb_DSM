@@ -1,10 +1,10 @@
 #!/bin/bash  
-#SBATCH --nodes=1
-#SBATCH --ntasks=20
-#SBATCH --partition compute
-#SBATCH --constraint=ib
-#SBATCH --mem=96G
-#SBATCH --time=0-05:00:00
+#SBATCH --mail-user=ecain@ucmerced.edu  
+#SBATCH --mail-type=ALL  
+#SBATCH -p medium
+#SBATCH -t 08:00:00
+#SBATCH -p dept.cogsci
+#SBATCH --ntasks-per-node=56
 #SBATCH --output=log_grep.qlog  
 #SBATCH --job-name=vbGRP
 #SBATCH --export=ALL
