@@ -3,9 +3,7 @@ import sys
 
 print("init", os.getcwd())
 
-#grep -Ew "^(strike|whack|hit|rub|poke|bop|smack|clean|tease|feed|scuff|pinch|knock|pat|locate|feel|spot|point|pet|look|squeeze|pick|cuddle|find|hug|select|choose).*with/"
-
-regex_comm = "grep -Ew \"^(strike|whack|hit|rub|poke|bop|smack|clean|tease|feed|scuff|pinch|knock|pat|locate|feel|spot|point|pet|look|squeeze|pick|cuddle|find|hug|select|choose).*with/\""
+regex_comm = "grep -Ew \"^(strike|whack|hit|rub|poke|bop|smack|clean|tease|feed|scuff|pinch|knock|pat|locate|feel|spot|point|pet|look|squeeze|pick|cuddle|find|hug|select|choose).*with\""
 
 # syntgram_dir = "../data/triarcs"
 # target_dir = "../data/filtered_triarcs"
