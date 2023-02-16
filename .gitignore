@@ -1,3 +1,5 @@
+data/triarcs/
+data/filtered_triarcs/*.tsv
 dsm-venv/
 counter-fitted-vectors.txt
 *.png
@@ -6,5 +8,4 @@ counter-fitted-vectors.txt
 data/*verbargs/
 .DS_Store
 data/find_with.tsv
-.gitignore
 data_output/test.csv
