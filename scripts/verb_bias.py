@@ -86,8 +86,8 @@ csv.field_size_limit(sys.maxsize)
 col_names = ["verb", "arg_structure", "count"]
 result = pd.DataFrame()
 
-# syntgram_dir = "../data/triarcs"
-syntgram_dir = "/home/ecain/borgstore/ecain/syntactic-ngrams/filtered_triarcs" ## Issue when submitted through slurm
+syntgram_dir = "../data/filtered_triarcs"
+# syntgram_dir = "/home/ecain/borgstore/ecain/syntactic-ngrams/filtered_triarcs" ## Issue when submitted through slurm
 
 for filename in os.listdir(syntgram_dir):
     print("Filename:",filename)
@@ -101,7 +101,10 @@ for filename in os.listdir(syntgram_dir):
         raw_data = [r for r in reader]
         
     df = pd.DataFrame(data=raw_data)
-    df = df[df.verb.isin(target_verbs)]
+    df = df[df[0].isin(target_verbs)]
+    print(df)
+
+
 
     # print(df)
     dates = df.loc[:, ~ df.columns.isin([0,1,2])]
@@ -114,6 +117,7 @@ for filename in os.listdir(syntgram_dir):
     # print(dates["counts"])
     df = df[[0,1,2]]
     df.columns = ["verb", "arg_structure", "count"]
+    # df = df[df.verb.isin(target_verbs)]
     df["count"] = df["count"].astype(int)
     df["year_count"] = dates["counts"]
 
