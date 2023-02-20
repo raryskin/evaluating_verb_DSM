@@ -6,6 +6,7 @@ import csv
 import time
 import sys
 from collections import Counter
+import re
 
 print("init", os.getcwd())
 
@@ -93,6 +94,8 @@ for filename in os.listdir(syntgram_dir):
     print("Filename:",filename)
     start = time.time()
     raw_data = []
+
+    
 
     # This because normal reading in the CSV was generating errors!
     # df = pd.read_csv(open("./verb_args/"+filename, 'rt'), encoding='utf-8', engine='c', names=col_names, usecols=[0,1,2], sep="\t")
