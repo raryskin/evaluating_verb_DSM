@@ -106,52 +106,52 @@ for filename in os.listdir(syntgram_dir):
     df = pd.DataFrame(data=raw_data)
     df = df[df[0].isin(target_verbs)]
     print(df)
+    
+    
+    if (len(df) > 0):
+        # print(df)
+        dates = df.loc[:, ~ df.columns.isin([0,1,2])]
 
+        # print(dates)
+        date_row = dates.loc[0,:]
 
+        dates["counts"] = dates.apply(lambda row: row2dict(row), axis = 1)
 
-    # print(df)
-    dates = df.loc[:, ~ df.columns.isin([0,1,2])]
+        # print(dates["counts"])
+        df = df[[0,1,2]]
+        df.columns = ["verb", "arg_structure", "count"]
+        # df = df[df.verb.isin(target_verbs)]
+        df["count"] = df["count"].astype(int)
+        df["year_count"] = dates["counts"]
 
-    # print(dates)
-    date_row = dates.loc[0,:]
+        # Filtered earlier to reduce memory constraints
+        # df = df[df.verb.isin(target_verbs)]
+        # print("\nSubset:")
+        # print(df)
 
-    dates["counts"] = dates.apply(lambda row: row2dict(row), axis = 1)
+        df["bias"] = df["arg_structure"].apply(check_bias_alt)
 
-    # print(dates["counts"])
-    df = df[[0,1,2]]
-    df.columns = ["verb", "arg_structure", "count"]
-    # df = df[df.verb.isin(target_verbs)]
-    df["count"] = df["count"].astype(int)
-    df["year_count"] = dates["counts"]
+        for verb in pd.unique(df.verb):
+            for bias in pd.unique(df.bias):
+                print(verb, bias)
+                temp = df[(df["verb"] == verb) & (df["bias"] == bias)]
+                if len(temp) != 0:
+                    print(temp)
+                    total_count = temp["count"].sum()
+                    year_counts = sum_dicts(temp["year_count"].values)
+                else:
+                    total_count = 0
+                    year_counts = -1
 
-    # Filtered earlier to reduce memory constraints
-    # df = df[df.verb.isin(target_verbs)]
-    # print("\nSubset:")
-    # print(df)
+                new_row = {"verb":[verb], "bias":[bias], "total_count": [total_count], "year_count":[year_counts]}
+                new_row = pd.DataFrame(new_row)
+                print()
+                result = pd.concat([result, new_row], axis = 0)
 
-    df["bias"] = df["arg_structure"].apply(check_bias_alt)
+        end = time.time()
+        print(start - end)
 
-    for verb in pd.unique(df.verb):
-        for bias in pd.unique(df.bias):
-            print(verb, bias)
-            temp = df[(df["verb"] == verb) & (df["bias"] == bias)]
-            if len(temp) != 0:
-                print(temp)
-                total_count = temp["count"].sum()
-                year_counts = sum_dicts(temp["year_count"].values)
-            else:
-                total_count = 0
-                year_counts = -1
-
-            new_row = {"verb":[verb], "bias":[bias], "total_count": [total_count], "year_count":[year_counts]}
-            new_row = pd.DataFrame(new_row)
-            print()
-            result = pd.concat([result, new_row], axis = 0)
-
-    end = time.time()
-    print(start - end)
-
-    result.to_csv("../data_output/verb_bias.tsv", sep='\t', index=False)
-    print(filename,"done")
+        result.to_csv("../data_output/verb_bias.tsv", sep='\t', index=False)
+        print(filename,"done")
 
     
