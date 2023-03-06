@@ -1,0 +1,28 @@
+﻿verb,verb.cleaned,relevant.percent,instrument.bias,category
+Strike,strike,95,95,instrument
+Whack,whack,92,95,instrument
+Hit,hit,97,92,instrument
+Rub,rub,84,90,instrument
+Poke,poke,98,88,instrument
+Bop,bop,92,87,instrument
+Smack,smack,91,87,instrument
+Clean,clean,99,86,instrument
+Tease,tease,86,86,instrument
+Feed,feed,49,71,equibiased
+Scuff,scuff,92,71,equibiased
+Pinch,pinch,76,68,equibiased
+Knock on,knock,84,67,equibiased
+Pat,pat,84,65,equibiased
+Locate,locate,93,64,equibiased
+Feel,feel,74,62,equibiased
+Spot,spot,93,62,equibiased
+Point to,point,88,61,equibiased
+Pet,pet,81,38,modifier
+Look at,look,84,35,modifier
+Squeeze,squeeze,81,35,modifier
+Pick out,pick,92,33,modifier
+Cuddle,cuddle,71,30,modifier
+Find,find,94,28,modifier
+Hug,hug,70,23,modifier
+Select,select,90,11,modifier
+Choose,choose,96,6,modifier
